@@ -1,0 +1,27 @@
+:host {
+  .other-stuff {
+    display: grid;
+    grid-gap: 1rem;
+    gap: 15px;
+    justify-content: space-between;
+    flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
+    & mat-chip {
+      --mdc-chip-container-height: 20px;
+      --mdc-chip-label-text-size: 12px;
+      height: var(--mdc-chip-container-height);
+      margin: 2px;
+      font-size: var(--mdc-chip-label-text-size);
+    }
+  }
+  $screen-sm: 640px;
+  $screen-md: 768px;
+  $screen-lg: 1024px;
+  $screen-xl: 1280px;
+  @media screen and (max-width: $screen-md) {
+    .other-stuff {
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+    }
+  }
+}

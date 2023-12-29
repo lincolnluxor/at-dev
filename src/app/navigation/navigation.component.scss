@@ -1,0 +1,15 @@
+:host {
+  .navbar-nav {
+    display: flex;
+  }
+  .nav-item {
+    margin-right: 15px;
+  }
+  mat-button {
+    cursor: pointer;
+  }
+  .nav-brand,
+  .nav-link {
+    cursor: pointer;
+  }
+}

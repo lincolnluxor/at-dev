@@ -1,0 +1,17 @@
+:host {
+  .run-cards {
+    display: flex;
+    gap: 15px;
+    text-align: left;
+    margin-top: 15px;
+  }
+  $screen-sm: 640px;
+  $screen-md: 768px;
+  $screen-lg: 1024px;
+  $screen-xl: 1280px;
+  @media screen and (max-width: $screen-md) {
+    .run-cards {
+      flex-direction: column;
+    }
+  }
+}

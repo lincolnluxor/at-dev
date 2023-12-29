@@ -1,0 +1,166 @@
+{
+  "shoes": [
+    {
+      "brand": "asics",
+      "title": "MetaSpeed Edge",
+      "subtitle": "Orange/Yellow",
+      "miles": 403,
+      "color1": "#e8de08",
+      "color2": "#fc4a2b",
+      "cost": 162.56
+    },
+    {
+      "brand": "asics",
+      "title": "MetaSpeed Edge+",
+      "subtitle": "Orange/Blue",
+      "miles": 140,
+      "color1": "#22c1c3",
+      "color2": "#f37335",
+      "cost": 215
+    },
+    {
+      "brand": "nike",
+      "title": "Air Tempo Next %",
+      "subtitle": "White/Blue",
+      "miles": 99,
+      "color1": "#0052d4",
+      "color2": "#ffffff",
+      "cost": 123.18
+    },
+    {
+      "brand": "nike",
+      "title": "Alphafly Next %",
+      "subtitle": "Maroon/Black",
+      "miles": 59,
+      "color1": "#000000",
+      "color2": "#8e0e00",
+      "cost": 0
+    },
+    {
+      "brand": "nike",
+      "title": "Wildhorse v8",
+      "subtitle": "Blue Mix",
+      "miles": 24,
+      "color1": "#667db6",
+      "color2": "#0082c8",
+      "cost": 88.78
+    },
+    {
+      "brand": "nike",
+      "title": "Pegasus 39",
+      "subtitle": "White/Red",
+      "miles": 24,
+      "color1": "#f20011",
+      "color2": "#ffffff",
+      "cost": 62.38
+    },
+    {
+      "brand": "newBalance",
+      "title": "Rebel V3",
+      "subtitle": "Blue/Orange",
+      "miles": 174,
+      "color1": "#ff8800",
+      "color2": "#1714b0",
+      "cost": 49.99
+    },
+    {
+      "brand": "newBalance",
+      "title": "Rebel V3",
+      "subtitle": "White/Black",
+      "miles": 110,
+      "color1": "#000000",
+      "color2": "#ffffff",
+      "cost": 64.83
+    },
+    {
+      "brand": "newBalance",
+      "title": "SuperComp Elite v3",
+      "subtitle": "Yellow",
+      "miles": 42,
+      "color1": "yellow",
+      "color2": "yellow",
+      "cost": 79.99
+    },
+    {
+      "brand": "newBalance",
+      "title": "Fresh Foam X More V2 Trail",
+      "subtitle": "Green/Yellow",
+      "miles": 32,
+      "color1": "#717366",
+      "color2": "#cfdd77",
+      "cost": 164.99
+    },
+    {
+      "brand": "saucony",
+      "title": "Endorphin Pro 2",
+      "subtitle": "Blue/White",
+      "miles": 68,
+      "color1": "#ffffff",
+      "color2": "#2980b9",
+      "cost": 79
+    },
+    {
+      "brand": "saucony",
+      "title": "Endorphin Speed 2",
+      "subtitle": "White/Blue",
+      "miles": 36,
+      "color1": "#000000",
+      "color2": "#e4e5e6",
+      "cost": 86.70
+    },
+    {
+      "brand": "saucony",
+      "title": "Floatride Energy 3",
+      "subtitle": "Black/White",
+      "miles": 61,
+      "color1": "#ffffff",
+      "color2": "#000000",
+      "cost": 50
+    },
+    {
+      "brand": "adidas",
+      "title": "Boston 11",
+      "subtitle": "Yellow/Black",
+      "miles": 125,
+      "color1": "#000000",
+      "color2": "yellow",
+      "cost": 60
+    },
+    {
+      "brand": "adidas",
+      "title": "Boston 10",
+      "subtitle": "Blue/White",
+      "miles": 67,
+      "color1": "white",
+      "color2": "#464ca0",
+      "cost": 69.03
+    },
+    {
+      "brand": "adidas",
+      "title": "Adizero Adios 7",
+      "subtitle": "Blue/Yellow",
+      "miles": 7,
+      "color1": "#15d3ec",
+      "color2": "yellow",
+      "cost": 50
+    },
+    {
+      "brand": "adidas",
+      "title": "Ultraboost Summer.RDY",
+      "subtitle": "White/Blue",
+      "miles": 250,
+      "color1": "#00416a",
+      "color2": "white",
+      "cost": 74.99
+    },
+    {
+      "brand": "hoka",
+      "title": "Clifton 7",
+      "subtitle": "Red/White",
+      "miles": 250,
+      "color1": "#ffffff",
+      "color2": "#c4201d",
+      "cost": 112.69
+    }
+  ]
+}

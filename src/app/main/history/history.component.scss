@@ -1,0 +1,73 @@
+:host {
+  mat-card-header {
+    flex-direction: column;
+  }
+  mat-card-title {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  mat-card-title mat-chip {
+    align-self: center;
+  }
+  mat-card-content mat-chip {
+    --mdc-chip-container-height: 20px;
+    --mdc-chip-label-text-size: 12px;
+    height: var(--mdc-chip-container-height);
+    margin: 2px;
+    font-size: var(--mdc-chip-label-text-size);
+  }
+  #img-gvt,
+  #img-usaf,
+  #img-lg,
+  #img-lsvt {
+    margin: 15px 0;
+    width: auto;
+    height: 225px;
+  }
+  #img-gvt {
+    background: url('../../../assets/GVT_Logo_Header.png');
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #img-usaf {
+    background: url('../../../assets/US_Air_Force_logo_logotype.png');
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #img-lg {
+    background: url('../../../assets/lg.jpg');
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #img-lsvt {
+    background: url('../../../assets/Lightspeed-VT-Logo.png');
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .work-stuff {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 1rem;
+    gap: 15px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  $screen-sm: 640px;
+  $screen-md: 768px;
+  $screen-lg: 1024px;
+  $screen-xl: 1280px;
+  @media screen and (max-width: $screen-md) {
+    .work-stuff {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

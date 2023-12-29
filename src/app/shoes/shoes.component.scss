@@ -1,0 +1,70 @@
+:host {
+  --mdc-elevated-card-container-color: rgba(230,230,230,1);
+  --mat-card-subtitle-text-color: rgba(50,50,50,1);
+  #filters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .shoe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  mat-card,
+  app-shoe {
+    width: 30%;
+  }
+  #brand-filter,
+  #shoe-sort {
+    margin-bottom: 15px;
+    background: rgb(194, 194, 194);
+    border-radius: 16px;
+    padding: 3px 10px;
+  }
+  .filter-title,
+  .sort-title {
+    width: 100%;
+    display: block;
+    padding: 0 10px;
+    font-size: 11px;
+  }
+  mat-chip[selected="true"] {
+    background-color: green;
+    color: white;
+  }
+  #chip-clear {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 1px solid rgba(0,0,0,0.12);
+  }
+  #chip-all {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 0;
+  }
+  mat-spinner {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  $screen-sm: 640px;
+  $screen-md: 768px;
+  $screen-lg: 1024px;
+  $screen-xl: 1280px;
+  @media screen and (max-width: $screen-md) {
+    app-shoe {
+      width: 45%;
+    }
+  }
+  @media screen and (max-width: $screen-sm) {
+    app-shoe {
+      width: 90%;
+    }
+    mat-chip {
+
+      margin: 2px;
+
+    }
+  }
+}

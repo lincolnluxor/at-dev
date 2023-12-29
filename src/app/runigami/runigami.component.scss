@@ -1,0 +1,69 @@
+:host {
+  .time-slot {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+    margin: 4px;
+    text-align: center;
+    width: 50px;
+    &:not(.done) {
+      background: black;
+    }
+    &.done {
+      background: green;
+    }
+    &:before {
+      content: ':';
+      color: white;
+      font-size: 24px;
+    }
+  }
+  .time-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 1rem;
+    gap: 15px;
+    justify-content: space-between;
+  }
+  #brand-filter {
+    margin-bottom: 15px;
+    background: rgb(194, 194, 194);
+    border-radius: 16px;
+    padding: 3px 10px;
+  }
+  .filter-title {
+    width: 100%;
+    display: block;
+    padding: 0 10px;
+    font-size: 11px;
+  }
+  mat-chip[selected="true"] {
+    background-color: green;
+    color: white;
+  }
+  mat-spinner {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  $screen-sm: 640px;
+  $screen-md: 768px;
+  $screen-lg: 1024px;
+  $screen-xl: 1280px;
+  @media screen and (max-width: $screen-lg) {
+    .time-container {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  @media screen and (max-width: $screen-md) {
+    .time-container {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  @media screen and (max-width: $screen-sm) {
+    .time-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

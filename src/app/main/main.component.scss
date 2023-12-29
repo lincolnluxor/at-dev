@@ -1,0 +1,54 @@
+:host {
+  --mdc-elevated-card-container-color: rgba(230,230,230,1);
+  --mat-card-subtitle-text-color: rgba(50,50,50,1);
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  app-thanks {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  app-whoami,
+  app-history,
+  app-other,
+  app-running,
+  app-thanks {
+    margin: 30px 0;
+  }
+  --flannel-color: var(--mat-badge-background-color);
+  --flannel-40-color: color-mix(in srgb, var(--flannel-color), transparent 40%);
+  --flannel-50-color: color-mix(in srgb, var(--flannel-color), transparent 50%);
+  --flannel-60-color: color-mix(in srgb, var(--flannel-color), transparent 60%);
+  .flannel {
+    background:
+      linear-gradient(-135deg, var(--flannel-color) 10%, transparent),
+      repeating-linear-gradient(45deg, var(--flannel-color) 0%, var(--flannel-60-color) 5%, transparent 5%, transparent 10%),
+      repeating-linear-gradient(-45deg, var(--flannel-40-color) 0%, var(--flannel-50-color) 5%, transparent 5%, transparent 10%);
+  }
+  .more {
+    --offset: 120px;
+    margin-top: calc(var(--offset) * -1);
+    margin-bottom: var(--offset);
+    z-index: 3;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    animation: bounce 1s ease-in-out alternate-reverse infinite;
+    & ng-icon {
+      font-size: 3rem;
+      color: white;
+      filter: drop-shadow(3px 2px 3px rgb(0 0 0 / 0.4));
+    }
+  }
+  @keyframes bounce {
+    from {
+      transform: translate3d(0,0,0);
+    }
+    to {
+      transform: translate3d(0,-15px,0);
+    }
+  }
+}

@@ -1,0 +1,50 @@
+<div class="container">
+  <h1>I'm a shoe geek</h1>
+  <p>I love running shoes. I really love that running shoes go on deep discount too. Miles per dollar is a great metric for running shoes to me.</p>
+  <p>These are my shoes</p>
+  <div class="brands">
+    <div id="filters">
+      <div class="filter">
+        <div class="filter-title">Filter by Brand</div>
+        <mat-chip-listbox id="brand-filter">
+          <mat-chip [attr.selected]="filterBrands.indexOf(brand) > -1" (click)="selectFilter(brand)" *ngFor="let brand of shoeBrands">
+            {{brand}}
+          </mat-chip>
+          <div>
+            <mat-chip id="chip-clear" [disabled]="filterBrands.length === 0" (click)="deselectAll()" >Clear</mat-chip>
+            <mat-chip id="chip-all" [attr.selected]="filterBrands.length === selectableBrandsCount" (click)="selectAll()" >All</mat-chip>
+          </div>
+        </mat-chip-listbox>
+      </div>
+      <div class="filter">
+        <div class="sort-title">Sort by values</div>
+        <mat-chip-listbox id="shoe-sort">
+          <mat-chip (click)="sortShoesByMiles(sortDirection)" [attr.selected]="isSortingMiles">Most Miles {{(isSortingMiles) ? sortDirection : ''}}</mat-chip>
+          <mat-chip (click)="sortShoesByCost(sortDirection)" [attr.selected]="isSortingCost">Cost {{(isSortingCost) ? sortDirection : ''}}</mat-chip>
+          <!-- <mat-chip>Rating</mat-chip> -->
+        </mat-chip-listbox>
+      </div>
+    </div>
+    <mat-spinner *ngIf="isLoading"></mat-spinner>
+    <div *ngIf="!isLoading" class="shoe-list">
+      <ng-container *ngFor="let shoe of shoes.shoes">
+        <app-shoe
+          *ngIf="filterBrands.indexOf(shoe.brand) > -1"
+          [brand]="shoe.brand"
+          [title]="shoe.title"
+          [subtitle]="shoe.subtitle"
+          [miles]="shoe.miles"
+          [color1]="shoe.color1"
+          [color2]="shoe.color2"
+          [cost]="shoe.cost">
+        </app-shoe>
+      </ng-container>
+      <app-no-shoe
+        *ngIf="filterBrands.length === 0">
+      </app-no-shoe>
+    </div>
+  </div>
+</div>
+
+
+

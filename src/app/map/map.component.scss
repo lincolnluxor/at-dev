@@ -1,0 +1,138 @@
+:host {
+  --mdc-elevated-card-container-color: rgba(230,230,230,1);
+  --mat-card-subtitle-text-color: rgba(50,50,50,1);
+  .state {fill:#D0D0D0}                        /* default color for all states not specified below */
+  .borders {stroke:#FFFFFF; stroke-width:1}    /* color and width of borders between states */
+  .dccircle {display:yes}                      /* set display to yes to show the circle for the District of Columbia, or none to hide it */
+  // .separator1 {stroke:#B0B0B0; stroke-width:2} /* color and width of lines around Alaska and Hawaii */
+
+  /* Individual states can be colored as follows:
+  .ks,.mt,.pa {fill:#0000FF}
+  .ca,.de {fill:#FF0000}
+  In this example, Kansas, Montana and Pennsylvania are colored blue, and California and Delaware are colored red.
+  Place this code in the empty space below. */
+  #us-map {
+    margin: 15px auto;
+    display: flex;
+  }
+  .state:hover {
+    fill: #bbb;
+  }
+  .state-lg {
+    fill: #bbb;
+  }
+  .visited {
+    fill: #c0c0c0;
+    &:hover {
+      fill: #a1a1a1;
+    }
+  }
+  .selected {
+    fill: #bbb;
+    &:hover {
+      fill: #a1a1a1;
+    }
+  }
+  .highlight {
+    grid-column: 1 / -1;
+    order: -1;
+    transition: all 200ms linear;
+    mat-card-header {
+      background: rgb(107, 223, 107);
+    }
+    mat-card-content {
+      background: rgb(82, 216, 82);
+    }
+    .mat-mdc-card-header {
+      flex: 30%;
+    }
+    .mat-mdc-card-content {
+      flex: 70%;
+    }
+  }
+  .tracked,
+  #svg-nv,
+  #svg-ut,
+  #svg-hi,
+  #svg-il {
+    fill: rgb(107, 223, 107);
+    &:hover {
+      fill: rgb(82, 216, 82);
+    }
+
+    &.selected {
+      fill: rgb(94, 197, 94);
+      &:hover {
+        fill: rgb(72, 196, 72);
+      }
+    }
+  }
+  .untracked,
+  #svg-tn,
+  #svg-al,
+  #svg-tx,
+  #svg-nc,
+  #svg-ms {
+    fill: rgb(142, 223, 142);
+    &:hover {
+      fill: rgb(122, 223, 122);
+    }
+    &.selected {
+      fill: rgb(120, 189, 120);
+      &:hover {
+        fill: rgb(98, 189, 98);
+      }
+    }
+  }
+  .state-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    gap: 15px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  mat-card {
+    box-shadow: 5px 5px 5px #888888;
+  }
+  mat-card.mdc-card {
+    display: flex;
+    flex-direction: row;
+  }
+  mat-card-header,
+  mat-card-content {
+    pointer-events: none;
+  }
+  mat-card-header {
+    background: #eeeeee;
+    padding-bottom: 15px;
+  }
+  .mat-mdc-card-header {
+    flex: 65%;
+  }
+  .mat-mdc-card-content {
+    flex: 35%;
+  }
+  .mat-mdc-card-avatar {
+    margin: 0;
+  }
+  .mat-mdc-card-content {
+    padding-top: 15px;
+  }
+  $screen-sm: 640px;
+  $screen-md: 768px;
+  $screen-lg: 1024px;
+  $screen-xl: 1280px;
+  @media screen and (max-width: $screen-lg) {
+    .state-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: $screen-md) {
+    .state-list {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

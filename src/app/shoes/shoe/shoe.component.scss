@@ -1,0 +1,29 @@
+:host {
+  .mat-mdc-card-image {
+    height: 50px;
+    margin-bottom: 15px;
+    background: linear-gradient(to left, var(--color1), var(--color2));
+  }
+  .svg-shoe {
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  }
+  .breakdown {
+    display: flex;
+    flex-direction: column;
+    & > div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-weight: 500;
+    }
+    meter {
+      flex-grow: 1;
+      margin: 0 10px;
+      border-radius: 0;
+      height: 3px;
+    }
+  }
+}

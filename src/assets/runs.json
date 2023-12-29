@@ -1,0 +1,2650 @@
+{
+  "runs": [
+    {
+      "hours": 2,
+      "minutes": 46,
+      "seconds": 45,
+      "date": "06-18-2022",
+      "miles": 9.77
+    },
+    {
+      "hours": 1,
+      "minutes": 48,
+      "seconds": 54,
+      "date": "05-18-2022",
+      "miles": 9.63
+    },
+    {
+      "hours": 1,
+      "minutes": 15,
+      "seconds": 27,
+      "date": "05-31-2022",
+      "miles": 9.60
+    },
+    {
+      "hours": 1,
+      "minutes": 23,
+      "seconds": 15,
+      "date": "05-12-2022",
+      "miles": 9.50
+    },
+    {
+      "hours": 1,
+      "minutes": 15,
+      "seconds": 17,
+      "date": "10-23-2022",
+      "miles": 9.40
+    },
+    {
+      "hours": 1,
+      "minutes": 24,
+      "seconds": 59,
+      "date": "06-04-2023",
+      "miles": 9.16
+    },
+    {
+      "hours": 1,
+      "minutes": 14,
+      "seconds": 12,
+      "date": "06-04-2022",
+      "miles": 9.00
+    },
+    {
+      "hours": 1,
+      "minutes": 7,
+      "seconds": 44,
+      "date": "11-23-2023",
+      "miles": 8.99
+    },
+    {
+      "hours": 1,
+      "minutes": 4,
+      "seconds": 0,
+      "date": "03-28-2022",
+      "miles": 8.52
+    },
+    {
+      "hours": 1,
+      "minutes": 5,
+      "seconds": 18,
+      "date": "10-28-2022",
+      "miles": 8.41
+    },
+    {
+      "hours": 1,
+      "minutes": 4,
+      "seconds": 57,
+      "date": "05-14-2022",
+      "miles": 8.39
+    },
+    {
+      "hours": 1,
+      "minutes": 5,
+      "seconds": 12,
+      "date": "10-03-2022",
+      "miles": 8.35
+    },
+    {
+      "hours": 1,
+      "minutes": 4,
+      "seconds": 29,
+      "date": "04-07-2022",
+      "miles": 8.34
+    },
+    {
+      "hours": 1,
+      "minutes": 2,
+      "seconds": 37,
+      "date": "04-13-2022",
+      "miles": 8.31
+    },
+    {
+      "hours": 1,
+      "minutes": 5,
+      "seconds": 4,
+      "date": "07-30-2023",
+      "miles": 8.30
+    },
+    {
+      "hours": 0,
+      "minutes": 59,
+      "seconds": 45,
+      "date": "12-14-2023",
+      "miles": 8.10
+    },
+    {
+      "hours": 1,
+      "minutes": 4,
+      "seconds": 11,
+      "date": "06-27-2021",
+      "miles": 8.01
+    },
+    {
+      "hours": 1,
+      "minutes": 0,
+      "seconds": 52,
+      "date": "08-12-2023",
+      "miles": 8.00
+    },
+    {
+      "hours": 1,
+      "minutes": 4,
+      "seconds": 0,
+      "date": "02-19-2023",
+      "miles": 8.00
+    },
+    {
+      "hours": 1,
+      "minutes": 0,
+      "seconds": 1,
+      "date": "06-16-2023",
+      "miles": 7.89
+    },
+    {
+      "hours": 1,
+      "minutes": 0,
+      "seconds": 0,
+      "date": "03-09-2023",
+      "miles": 7.82
+    },
+    {
+      "hours": 1,
+      "minutes": 0,
+      "seconds": 2,
+      "date": "10-06-2022",
+      "miles": 7.78
+    },
+    {
+      "hours": 1,
+      "minutes": 0,
+      "seconds": 0,
+      "date": "11-11-2022",
+      "miles": 7.70
+    },
+    {
+      "hours": 0,
+      "minutes": 59,
+      "seconds": 39,
+      "date": "07-06-2023",
+      "miles": 7.66
+    },
+    {
+      "hours": 0,
+      "minutes": 58,
+      "seconds": 0,
+      "date": "10-01-2022",
+      "miles": 7.64
+    },
+    {
+      "hours": 0,
+      "minutes": 57,
+      "seconds": 22,
+      "date": "12-05-2021",
+      "miles": 7.64
+    },
+    {
+      "hours": 0,
+      "minutes": 57,
+      "seconds": 34,
+      "date": "05-12-2023",
+      "miles": 7.60
+    },
+    {
+      "hours": 1,
+      "minutes": 4,
+      "seconds": 12,
+      "date": "09-13-2022",
+      "miles": 7.54
+    },
+    {
+      "hours": 0,
+      "minutes": 59,
+      "seconds": 54,
+      "date": "11-28-2022",
+      "miles": 7.50
+    },
+    {
+      "hours": 1,
+      "minutes": 0,
+      "seconds": 11,
+      "date": "04-15-2022",
+      "miles": 7.47
+    },
+    {
+      "hours": 0,
+      "minutes": 57,
+      "seconds": 45,
+      "date": "05-25-2023",
+      "miles": 7.42
+    },
+    {
+      "hours": 2,
+      "minutes": 21,
+      "seconds": 50,
+      "date": "04-15-2023",
+      "miles": 7.41
+    },
+    {
+      "hours": 0,
+      "minutes": 54,
+      "seconds": 7,
+      "date": "12-16-2023",
+      "miles": 7.40
+    },
+    {
+      "hours": 0,
+      "minutes": 56,
+      "seconds": 48,
+      "date": "08-29-2023",
+      "miles": 7.39
+    },
+    {
+      "hours": 0,
+      "minutes": 56,
+      "seconds": 38,
+      "date": "11-24-2021",
+      "miles": 7.39
+    },
+    {
+      "hours": 0,
+      "minutes": 55,
+      "seconds": 54,
+      "date": "06-30-2023",
+      "miles": 7.36
+    },
+    {
+      "hours": 1,
+      "minutes": 2,
+      "seconds": 19,
+      "date": "09-23-2022",
+      "miles": 7.32
+    },
+    {
+      "hours": 0,
+      "minutes": 53,
+      "seconds": 58,
+      "date": "10-11-2023",
+      "miles": 7.31
+    },
+    {
+      "hours": 0,
+      "minutes": 55,
+      "seconds": 33,
+      "date": "11-04-2023",
+      "miles": 7.28
+    },
+    {
+      "hours": 0,
+      "minutes": 55,
+      "seconds": 54,
+      "date": "10-10-2022",
+      "miles": 7.27
+    },
+    {
+      "hours": 0,
+      "minutes": 54,
+      "seconds": 18,
+      "date": "04-29-2022",
+      "miles": 7.25
+    },
+    {
+      "hours": 0,
+      "minutes": 56,
+      "seconds": 45,
+      "date": "05-15-2023",
+      "miles": 7.22
+    },
+    {
+      "hours": 0,
+      "minutes": 54,
+      "seconds": 9,
+      "date": "11-22-2023",
+      "miles": 7.19
+    },
+    {
+      "hours": 0,
+      "minutes": 55,
+      "seconds": 33,
+      "date": "09-04-2023",
+      "miles": 7.19
+    },
+    {
+      "hours": 0,
+      "minutes": 52,
+      "seconds": 48,
+      "date": "05-04-2022",
+      "miles": 7.14
+    },
+    {
+      "hours": 0,
+      "minutes": 54,
+      "seconds": 6,
+      "date": "10-27-2023",
+      "miles": 7.08
+    },
+    {
+      "hours": 0,
+      "minutes": 58,
+      "seconds": 51,
+      "date": "11-23-2022",
+      "miles": 7.05
+    },
+    {
+      "hours": 0,
+      "minutes": 59,
+      "seconds": 38,
+      "date": "08-24-2022",
+      "miles": 7.03
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 56,
+      "date": "03-23-2022",
+      "miles": 7.01
+    },
+    {
+      "hours": 0,
+      "minutes": 57,
+      "seconds": 16,
+      "date": "03-06-2022",
+      "miles": 7.01
+    },
+    {
+      "hours": 0,
+      "minutes": 55,
+      "seconds": 26,
+      "date": "08-31-2021",
+      "miles": 7.01
+    },
+    {
+      "hours": 0,
+      "minutes": 55,
+      "seconds": 43,
+      "date": "05-01-2023",
+      "miles": 7.00
+    },
+    {
+      "hours": 0,
+      "minutes": 55,
+      "seconds": 15,
+      "date": "02-13-2023",
+      "miles": 7.00
+    },
+    {
+      "hours": 0,
+      "minutes": 55,
+      "seconds": 23,
+      "date": "12-05-2022",
+      "miles": 7.00
+    },
+    {
+      "hours": 0,
+      "minutes": 51,
+      "seconds": 50,
+      "date": "08-18-2023",
+      "miles": 6.99
+    },
+    {
+      "hours": 0,
+      "minutes": 51,
+      "seconds": 58,
+      "date": "04-06-2022",
+      "miles": 6.95
+    },
+    {
+      "hours": 0,
+      "minutes": 53,
+      "seconds": 57,
+      "date": "07-18-2021",
+      "miles": 6.91
+    },
+    {
+      "hours": 0,
+      "minutes": 53,
+      "seconds": 39,
+      "date": "05-17-2021",
+      "miles": 6.87
+    },
+    {
+      "hours": 0,
+      "minutes": 51,
+      "seconds": 56,
+      "date": "06-20-2023",
+      "miles": 6.86
+    },
+    {
+      "hours": 0,
+      "minutes": 54,
+      "seconds": 31,
+      "date": "08-20-2022",
+      "miles": 6.86
+    },
+    {
+      "hours": 0,
+      "minutes": 53,
+      "seconds": 15,
+      "date": "03-23-2023",
+      "miles": 6.83
+    },
+    {
+      "hours": 0,
+      "minutes": 50,
+      "seconds": 51,
+      "date": "12-06-2023",
+      "miles": 6.78
+    },
+    {
+      "hours": 0,
+      "minutes": 52,
+      "seconds": 35,
+      "date": "09-27-2023",
+      "miles": 6.76
+    },
+    {
+      "hours": 0,
+      "minutes": 51,
+      "seconds": 38,
+      "date": "12-25-2023",
+      "miles": 6.75
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 47,
+      "date": "08-07-2023",
+      "miles": 6.71
+    },
+    {
+      "hours": 0,
+      "minutes": 51,
+      "seconds": 40,
+      "date": "06-23-2023",
+      "miles": 6.71
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 17,
+      "date": "10-31-2023",
+      "miles": 6.69
+    },
+    {
+      "hours": 0,
+      "minutes": 50,
+      "seconds": 25,
+      "date": "06-21-2023",
+      "miles": 6.62
+    },
+    {
+      "hours": 0,
+      "minutes": 52,
+      "seconds": 5,
+      "date": "04-03-2022",
+      "miles": 6.61
+    },
+    {
+      "hours": 0,
+      "minutes": 50,
+      "seconds": 31,
+      "date": "04-21-2022",
+      "miles": 6.58
+    },
+    {
+      "hours": 0,
+      "minutes": 51,
+      "seconds": 32,
+      "date": "05-16-2023",
+      "miles": 6.57
+    },
+    {
+      "hours": 0,
+      "minutes": 50,
+      "seconds": 24,
+      "date": "12-03-2021",
+      "miles": 6.55
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 0,
+      "date": "08-05-2023",
+      "miles": 6.50
+    },
+    {
+      "hours": 0,
+      "minutes": 51,
+      "seconds": 11,
+      "date": "05-28-2023",
+      "miles": 6.49
+    },
+    {
+      "hours": 0,
+      "minutes": 50,
+      "seconds": 2,
+      "date": "04-28-2022",
+      "miles": 6.48
+    },
+    {
+      "hours": 0,
+      "minutes": 47,
+      "seconds": 54,
+      "date": "09-08-2023",
+      "miles": 6.44
+    },
+    {
+      "hours": 0,
+      "minutes": 48,
+      "seconds": 25,
+      "date": "03-31-2022",
+      "miles": 6.44
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 29,
+      "date": "06-01-2023",
+      "miles": 6.43
+    },
+    {
+      "hours": 0,
+      "minutes": 50,
+      "seconds": 31,
+      "date": "05-26-2023",
+      "miles": 6.43
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 21,
+      "date": "08-20-2023",
+      "miles": 6.41
+    },
+    {
+      "hours": 0,
+      "minutes": 47,
+      "seconds": 48,
+      "date": "10-12-2022",
+      "miles": 6.41
+    },
+    {
+      "hours": 0,
+      "minutes": 47,
+      "seconds": 48,
+      "date": "11-18-2023",
+      "miles": 6.40
+    },
+    {
+      "hours": 0,
+      "minutes": 48,
+      "seconds": 31,
+      "date": "12-02-2022",
+      "miles": 6.39
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 5,
+      "date": "11-17-2022",
+      "miles": 6.38
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 33,
+      "date": "03-07-2023",
+      "miles": 6.35
+    },
+    {
+      "hours": 0,
+      "minutes": 47,
+      "seconds": 52,
+      "date": "10-05-2023",
+      "miles": 6.34
+    },
+    {
+      "hours": 0,
+      "minutes": 47,
+      "seconds": 6,
+      "date": "11-09-2023",
+      "miles": 6.31
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 49,
+      "date": "09-29-2022",
+      "miles": 6.31
+    },
+    {
+      "hours": 0,
+      "minutes": 48,
+      "seconds": 27,
+      "date": "09-16-2023",
+      "miles": 6.29
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 28,
+      "date": "04-01-2022",
+      "miles": 6.28
+    },
+    {
+      "hours": 0,
+      "minutes": 46,
+      "seconds": 38,
+      "date": "11-11-2023",
+      "miles": 6.27
+    },
+    {
+      "hours": 0,
+      "minutes": 48,
+      "seconds": 52,
+      "date": "11-07-2023",
+      "miles": 6.27
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 13,
+      "date": "07-31-2023",
+      "miles": 6.27
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 28,
+      "date": "10-29-2021",
+      "miles": 6.26
+    },
+    {
+      "hours": 0,
+      "minutes": 48,
+      "seconds": 19,
+      "date": "11-03-2023",
+      "miles": 6.25
+    },
+    {
+      "hours": 0,
+      "minutes": 49,
+      "seconds": 57,
+      "date": "09-02-2023",
+      "miles": 6.24
+    },
+    {
+      "hours": 0,
+      "minutes": 48,
+      "seconds": 9,
+      "date": "06-29-2023",
+      "miles": 6.24
+    },
+    {
+      "hours": 0,
+      "minutes": 45,
+      "seconds": 34,
+      "date": "10-04-2023",
+      "miles": 6.23
+    },
+    {
+      "hours": 0,
+      "minutes": 50,
+      "seconds": 20,
+      "date": "05-10-2023",
+      "miles": 6.23
+    },
+    {
+      "hours": 0,
+      "minutes": 47,
+      "seconds": 12,
+      "date": "09-28-2023",
+      "miles": 6.21
+    },
+    {
+      "hours": 0,
+      "minutes": 47,
+      "seconds": 7,
+      "date": "06-08-2023",
+      "miles": 6.21
+    },
+    {
+      "hours": 0,
+      "minutes": 48,
+      "seconds": 8,
+      "date": "10-16-2023",
+      "miles": 6.15
+    },
+    {
+      "hours": 0,
+      "minutes": 45,
+      "seconds": 34,
+      "date": "09-23-2023",
+      "miles": 6.15
+    },
+    {
+      "hours": 0,
+      "minutes": 45,
+      "seconds": 23,
+      "date": "12-24-2023",
+      "miles": 6.12
+    },
+    {
+      "hours": 0,
+      "minutes": 46,
+      "seconds": 24,
+      "date": "08-23-2023",
+      "miles": 6.12
+    },
+    {
+      "hours": 0,
+      "minutes": 46,
+      "seconds": 59,
+      "date": "07-26-2021",
+      "miles": 6.11
+    },
+    {
+      "hours": 0,
+      "minutes": 47,
+      "seconds": 5,
+      "date": "07-29-2023",
+      "miles": 6.06
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 55,
+      "date": "09-14-2023",
+      "miles": 6.02
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 10,
+      "date": "12-21-2023",
+      "miles": 6.00
+    },
+    {
+      "hours": 0,
+      "minutes": 45,
+      "seconds": 23,
+      "date": "09-15-2023",
+      "miles": 6.00
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 7,
+      "date": "06-27-2023",
+      "miles": 6.00
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 16,
+      "date": "06-07-2023",
+      "miles": 6.00
+    },
+    {
+      "hours": 0,
+      "minutes": 45,
+      "seconds": 23,
+      "date": "06-06-2023",
+      "miles": 6.00
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 44,
+      "date": "05-23-2023",
+      "miles": 6.00
+    },
+    {
+      "hours": 0,
+      "minutes": 45,
+      "seconds": 32,
+      "date": "12-07-2022",
+      "miles": 6.00
+    },
+    {
+      "hours": 0,
+      "minutes": 45,
+      "seconds": 52,
+      "date": "11-28-2023",
+      "miles": 5.98
+    },
+    {
+      "hours": 0,
+      "minutes": 43,
+      "seconds": 13,
+      "date": "09-07-2023",
+      "miles": 5.93
+    },
+    {
+      "hours": 0,
+      "minutes": 46,
+      "seconds": 14,
+      "date": "05-21-2023",
+      "miles": 5.92
+    },
+    {
+      "hours": 0,
+      "minutes": 43,
+      "seconds": 11,
+      "date": "04-14-2022",
+      "miles": 5.91
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 22,
+      "date": "11-03-2021",
+      "miles": 5.91
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 58,
+      "date": "09-16-2022",
+      "miles": 5.85
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 30,
+      "date": "06-13-2022",
+      "miles": 5.85
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 53,
+      "date": "10-13-2021",
+      "miles": 5.83
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 34,
+      "date": "06-13-2023",
+      "miles": 5.80
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 32,
+      "date": "02-18-2023",
+      "miles": 5.80
+    },
+    {
+      "hours": 0,
+      "minutes": 43,
+      "seconds": 56,
+      "date": "02-12-2023",
+      "miles": 5.80
+    },
+    {
+      "hours": 0,
+      "minutes": 43,
+      "seconds": 34,
+      "date": "07-08-2021",
+      "miles": 5.80
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 36,
+      "date": "05-05-2022",
+      "miles": 5.75
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 45,
+      "date": "03-25-2022",
+      "miles": 5.74
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 21,
+      "date": "05-15-2022",
+      "miles": 5.73
+    },
+    {
+      "hours": 0,
+      "minutes": 42,
+      "seconds": 18,
+      "date": "08-15-2023",
+      "miles": 5.72
+    },
+    {
+      "hours": 0,
+      "minutes": 43,
+      "seconds": 55,
+      "date": "06-01-2021",
+      "miles": 5.71
+    },
+    {
+      "hours": 0,
+      "minutes": 45,
+      "seconds": 13,
+      "date": "10-01-2023",
+      "miles": 5.70
+    },
+    {
+      "hours": 0,
+      "minutes": 41,
+      "seconds": 56,
+      "date": "10-12-2023",
+      "miles": 5.69
+    },
+    {
+      "hours": 0,
+      "minutes": 42,
+      "seconds": 14,
+      "date": "11-16-2021",
+      "miles": 5.66
+    },
+    {
+      "hours": 0,
+      "minutes": 43,
+      "seconds": 37,
+      "date": "08-19-2021",
+      "miles": 5.66
+    },
+    {
+      "hours": 0,
+      "minutes": 42,
+      "seconds": 17,
+      "date": "11-01-2023",
+      "miles": 5.64
+    },
+    {
+      "hours": 0,
+      "minutes": 45,
+      "seconds": 30,
+      "date": "02-28-2023",
+      "miles": 5.63
+    },
+    {
+      "hours": 0,
+      "minutes": 44,
+      "seconds": 18,
+      "date": "07-01-2023",
+      "miles": 5.57
+    },
+    {
+      "hours": 0,
+      "minutes": 43,
+      "seconds": 41,
+      "date": "09-17-2022",
+      "miles": 5.57
+    },
+    {
+      "hours": 0,
+      "minutes": 43,
+      "seconds": 57,
+      "date": "06-06-2021",
+      "miles": 5.57
+    },
+    {
+      "hours": 0,
+      "minutes": 43,
+      "seconds": 40,
+      "date": "06-09-2023",
+      "miles": 5.55
+    },
+    {
+      "hours": 0,
+      "minutes": 42,
+      "seconds": 11,
+      "date": "11-22-2022",
+      "miles": 5.52
+    },
+    {
+      "hours": 0,
+      "minutes": 42,
+      "seconds": 36,
+      "date": "12-01-2023",
+      "miles": 5.51
+    },
+    {
+      "hours": 0,
+      "minutes": 41,
+      "seconds": 59,
+      "date": "11-21-2022",
+      "miles": 5.50
+    },
+    {
+      "hours": 0,
+      "minutes": 41,
+      "seconds": 54,
+      "date": "04-16-2022",
+      "miles": 5.50
+    },
+    {
+      "hours": 0,
+      "minutes": 42,
+      "seconds": 31,
+      "date": "05-05-2023",
+      "miles": 5.47
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 14,
+      "date": "08-16-2023",
+      "miles": 5.45
+    },
+    {
+      "hours": 0,
+      "minutes": 42,
+      "seconds": 35,
+      "date": "01-12-2023",
+      "miles": 5.43
+    },
+    {
+      "hours": 0,
+      "minutes": 42,
+      "seconds": 32,
+      "date": "04-07-2023",
+      "miles": 5.42
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 37,
+      "date": "10-25-2023",
+      "miles": 5.39
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 25,
+      "date": "06-28-2023",
+      "miles": 5.39
+    },
+    {
+      "hours": 0,
+      "minutes": 41,
+      "seconds": 47,
+      "date": "11-20-2023",
+      "miles": 5.36
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 53,
+      "date": "10-24-2023",
+      "miles": 5.35
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 11,
+      "date": "09-26-2023",
+      "miles": 5.35
+    },
+    {
+      "hours": 0,
+      "minutes": 41,
+      "seconds": 39,
+      "date": "08-31-2023",
+      "miles": 5.35
+    },
+    {
+      "hours": 0,
+      "minutes": 41,
+      "seconds": 56,
+      "date": "05-09-2023",
+      "miles": 5.35
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 18,
+      "date": "05-17-2023",
+      "miles": 5.32
+    },
+    {
+      "hours": 0,
+      "minutes": 41,
+      "seconds": 9,
+      "date": "08-02-2023",
+      "miles": 5.31
+    },
+    {
+      "hours": 0,
+      "minutes": 43,
+      "seconds": 18,
+      "date": "12-24-2022",
+      "miles": 5.31
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 54,
+      "date": "09-13-2023",
+      "miles": 5.30
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 45,
+      "date": "02-03-2023",
+      "miles": 5.30
+    },
+    {
+      "hours": 0,
+      "minutes": 38,
+      "seconds": 55,
+      "date": "07-06-2021",
+      "miles": 5.30
+    },
+    {
+      "hours": 0,
+      "minutes": 43,
+      "seconds": 6,
+      "date": "05-29-2023",
+      "miles": 5.29
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 34,
+      "date": "12-23-2023",
+      "miles": 5.28
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 8,
+      "date": "06-17-2023",
+      "miles": 5.28
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 18,
+      "date": "07-04-2021",
+      "miles": 5.28
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 37,
+      "date": "11-10-2022",
+      "miles": 5.27
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 42,
+      "date": "07-26-2023",
+      "miles": 5.26
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 28,
+      "date": "11-29-2022",
+      "miles": 5.26
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 22,
+      "date": "09-12-2023",
+      "miles": 5.24
+    },
+    {
+      "hours": 0,
+      "minutes": 38,
+      "seconds": 51,
+      "date": "12-03-2022",
+      "miles": 5.24
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 58,
+      "date": "05-12-2021",
+      "miles": 5.24
+    },
+    {
+      "hours": 0,
+      "minutes": 38,
+      "seconds": 27,
+      "date": "11-15-2023",
+      "miles": 5.23
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 11,
+      "date": "09-01-2023",
+      "miles": 5.22
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 30,
+      "date": "05-31-2023",
+      "miles": 5.22
+    },
+    {
+      "hours": 0,
+      "minutes": 41,
+      "seconds": 15,
+      "date": "09-24-2023",
+      "miles": 5.20
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 20,
+      "date": "08-22-2023",
+      "miles": 5.20
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 26,
+      "date": "07-07-2021",
+      "miles": 5.20
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 28,
+      "date": "03-09-2022",
+      "miles": 5.19
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 1,
+      "date": "06-17-2021",
+      "miles": 5.17
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 55,
+      "date": "10-26-2023",
+      "miles": 5.15
+    },
+    {
+      "hours": 0,
+      "minutes": 41,
+      "seconds": 3,
+      "date": "06-21-2022",
+      "miles": 5.14
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 16,
+      "date": "07-07-2023",
+      "miles": 5.04
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 27,
+      "date": "07-09-2021",
+      "miles": 5.03
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 51,
+      "date": "08-28-2023",
+      "miles": 5.02
+    },
+    {
+      "hours": 0,
+      "minutes": 38,
+      "seconds": 5,
+      "date": "08-11-2023",
+      "miles": 5.02
+    },
+    {
+      "hours": 0,
+      "minutes": 38,
+      "seconds": 33,
+      "date": "10-08-2022",
+      "miles": 5.02
+    },
+    {
+      "hours": 0,
+      "minutes": 41,
+      "seconds": 47,
+      "date": "09-03-2023",
+      "miles": 5.01
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 33,
+      "date": "10-14-2022",
+      "miles": 5.01
+    },
+    {
+      "hours": 0,
+      "minutes": 38,
+      "seconds": 55,
+      "date": "10-04-2022",
+      "miles": 5.01
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 53,
+      "date": "09-14-2022",
+      "miles": 5.01
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 43,
+      "date": "06-29-2021",
+      "miles": 5.01
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 46,
+      "date": "06-18-2021",
+      "miles": 5.01
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 30,
+      "date": "12-18-2023",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 36,
+      "seconds": 57,
+      "date": "11-13-2023",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 36,
+      "seconds": 53,
+      "date": "08-08-2023",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 58,
+      "date": "07-28-2023",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 38,
+      "seconds": 43,
+      "date": "05-11-2023",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 34,
+      "date": "04-28-2023",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 41,
+      "seconds": 5,
+      "date": "03-02-2023",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 55,
+      "date": "10-25-2022",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 53,
+      "date": "10-11-2022",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 38,
+      "seconds": 52,
+      "date": "09-24-2022",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 38,
+      "date": "03-26-2022",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 14,
+      "date": "10-05-2021",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 38,
+      "seconds": 58,
+      "date": "07-30-2021",
+      "miles": 5.00
+    },
+    {
+      "hours": 0,
+      "minutes": 40,
+      "seconds": 40,
+      "date": "11-29-2023",
+      "miles": 4.99
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 50,
+      "date": "06-26-2021",
+      "miles": 4.97
+    },
+    {
+      "hours": 0,
+      "minutes": 36,
+      "seconds": 38,
+      "date": "12-07-2023",
+      "miles": 4.91
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 5,
+      "date": "08-20-2021",
+      "miles": 4.85
+    },
+    {
+      "hours": 0,
+      "minutes": 34,
+      "seconds": 38,
+      "date": "11-17-2023",
+      "miles": 4.81
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 0,
+      "date": "09-19-2022",
+      "miles": 4.81
+    },
+    {
+      "hours": 0,
+      "minutes": 39,
+      "seconds": 11,
+      "date": "08-13-2023",
+      "miles": 4.80
+    },
+    {
+      "hours": 0,
+      "minutes": 36,
+      "seconds": 24,
+      "date": "06-26-2023",
+      "miles": 4.78
+    },
+    {
+      "hours": 0,
+      "minutes": 35,
+      "seconds": 55,
+      "date": "05-07-2022",
+      "miles": 4.78
+    },
+    {
+      "hours": 0,
+      "minutes": 36,
+      "seconds": 25,
+      "date": "11-27-2023",
+      "miles": 4.75
+    },
+    {
+      "hours": 0,
+      "minutes": 35,
+      "seconds": 38,
+      "date": "09-06-2023",
+      "miles": 4.73
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 54,
+      "date": "08-21-2021",
+      "miles": 4.71
+    },
+    {
+      "hours": 0,
+      "minutes": 35,
+      "seconds": 53,
+      "date": "09-29-2023",
+      "miles": 4.70
+    },
+    {
+      "hours": 0,
+      "minutes": 35,
+      "seconds": 55,
+      "date": "06-03-2021",
+      "miles": 4.69
+    },
+    {
+      "hours": 0,
+      "minutes": 37,
+      "seconds": 15,
+      "date": "08-10-2022",
+      "miles": 4.68
+    },
+    {
+      "hours": 0,
+      "minutes": 36,
+      "seconds": 5,
+      "date": "03-06-2023",
+      "miles": 4.67
+    },
+    {
+      "hours": 0,
+      "minutes": 36,
+      "seconds": 30,
+      "date": "04-26-2023",
+      "miles": 4.63
+    },
+    {
+      "hours": 0,
+      "minutes": 35,
+      "seconds": 4,
+      "date": "10-31-2021",
+      "miles": 4.63
+    },
+    {
+      "hours": 0,
+      "minutes": 34,
+      "seconds": 42,
+      "date": "10-17-2023",
+      "miles": 4.62
+    },
+    {
+      "hours": 0,
+      "minutes": 35,
+      "seconds": 40,
+      "date": "11-27-2022",
+      "miles": 4.61
+    },
+    {
+      "hours": 0,
+      "minutes": 35,
+      "seconds": 51,
+      "date": "07-02-2021",
+      "miles": 4.56
+    },
+    {
+      "hours": 0,
+      "minutes": 36,
+      "seconds": 55,
+      "date": "06-06-2021",
+      "miles": 4.56
+    },
+    {
+      "hours": 0,
+      "minutes": 34,
+      "seconds": 3,
+      "date": "06-09-2021",
+      "miles": 4.55
+    },
+    {
+      "hours": 0,
+      "minutes": 33,
+      "seconds": 8,
+      "date": "12-09-2022",
+      "miles": 4.54
+    },
+    {
+      "hours": 0,
+      "minutes": 35,
+      "seconds": 2,
+      "date": "07-25-2022",
+      "miles": 4.53
+    },
+    {
+      "hours": 0,
+      "minutes": 34,
+      "seconds": 52,
+      "date": "05-19-2023",
+      "miles": 4.50
+    },
+    {
+      "hours": 0,
+      "minutes": 36,
+      "seconds": 23,
+      "date": "08-05-2022",
+      "miles": 4.50
+    },
+    {
+      "hours": 0,
+      "minutes": 34,
+      "seconds": 26,
+      "date": "04-27-2022",
+      "miles": 4.50
+    },
+    {
+      "hours": 0,
+      "minutes": 32,
+      "seconds": 55,
+      "date": "11-14-2023",
+      "miles": 4.48
+    },
+    {
+      "hours": 0,
+      "minutes": 33,
+      "seconds": 48,
+      "date": "10-06-2023",
+      "miles": 4.48
+    },
+    {
+      "hours": 0,
+      "minutes": 33,
+      "seconds": 50,
+      "date": "05-24-2023",
+      "miles": 4.48
+    },
+    {
+      "hours": 0,
+      "minutes": 34,
+      "seconds": 44,
+      "date": "03-29-2022",
+      "miles": 4.48
+    },
+    {
+      "hours": 0,
+      "minutes": 35,
+      "seconds": 1,
+      "date": "06-10-2021",
+      "miles": 4.47
+    },
+    {
+      "hours": 0,
+      "minutes": 33,
+      "seconds": 0,
+      "date": "05-17-2022",
+      "miles": 4.44
+    },
+    {
+      "hours": 0,
+      "minutes": 32,
+      "seconds": 37,
+      "date": "11-04-2022",
+      "miles": 4.43
+    },
+    {
+      "hours": 0,
+      "minutes": 33,
+      "seconds": 17,
+      "date": "05-10-2022",
+      "miles": 4.43
+    },
+    {
+      "hours": 0,
+      "minutes": 32,
+      "seconds": 13,
+      "date": "04-08-2022",
+      "miles": 4.43
+    },
+    {
+      "hours": 0,
+      "minutes": 31,
+      "seconds": 35,
+      "date": "12-26-2022",
+      "miles": 4.41
+    },
+    {
+      "hours": 0,
+      "minutes": 34,
+      "seconds": 28,
+      "date": "06-08-2021",
+      "miles": 4.41
+    },
+    {
+      "hours": 0,
+      "minutes": 33,
+      "seconds": 25,
+      "date": "05-30-2021",
+      "miles": 4.38
+    },
+    {
+      "hours": 0,
+      "minutes": 34,
+      "seconds": 7,
+      "date": "08-14-2021",
+      "miles": 4.30
+    },
+    {
+      "hours": 0,
+      "minutes": 31,
+      "seconds": 38,
+      "date": "10-18-2023",
+      "miles": 4.27
+    },
+    {
+      "hours": 0,
+      "minutes": 34,
+      "seconds": 27,
+      "date": "05-06-2021",
+      "miles": 4.26
+    },
+    {
+      "hours": 0,
+      "minutes": 31,
+      "seconds": 56,
+      "date": "07-13-2023",
+      "miles": 4.25
+    },
+    {
+      "hours": 0,
+      "minutes": 33,
+      "seconds": 30,
+      "date": "01-13-2023",
+      "miles": 4.23
+    },
+    {
+      "hours": 0,
+      "minutes": 32,
+      "seconds": 2,
+      "date": "03-08-2022",
+      "miles": 4.21
+    },
+    {
+      "hours": 0,
+      "minutes": 31,
+      "seconds": 17,
+      "date": "08-10-2023",
+      "miles": 4.20
+    },
+    {
+      "hours": 0,
+      "minutes": 30,
+      "seconds": 25,
+      "date": "07-23-2023",
+      "miles": 4.15
+    },
+    {
+      "hours": 0,
+      "minutes": 31,
+      "seconds": 52,
+      "date": "04-29-2023",
+      "miles": 4.15
+    },
+    {
+      "hours": 0,
+      "minutes": 30,
+      "seconds": 54,
+      "date": "05-25-2021",
+      "miles": 4.14
+    },
+    {
+      "hours": 0,
+      "minutes": 29,
+      "seconds": 18,
+      "date": "12-12-2022",
+      "miles": 4.10
+    },
+    {
+      "hours": 0,
+      "minutes": 34,
+      "seconds": 29,
+      "date": "05-29-2022",
+      "miles": 4.07
+    },
+    {
+      "hours": 0,
+      "minutes": 29,
+      "seconds": 55,
+      "date": "05-17-2022",
+      "miles": 4.07
+    },
+    {
+      "hours": 0,
+      "minutes": 31,
+      "seconds": 8,
+      "date": "02-19-2022",
+      "miles": 4.07
+    },
+    {
+      "hours": 0,
+      "minutes": 28,
+      "seconds": 57,
+      "date": "10-03-2023",
+      "miles": 4.00
+    },
+    {
+      "hours": 0,
+      "minutes": 31,
+      "seconds": 43,
+      "date": "04-19-2023",
+      "miles": 4.00
+    },
+    {
+      "hours": 0,
+      "minutes": 29,
+      "seconds": 7,
+      "date": "06-30-2021",
+      "miles": 3.98
+    },
+    {
+      "hours": 0,
+      "minutes": 27,
+      "seconds": 7,
+      "date": "04-20-2022",
+      "miles": 3.91
+    },
+    {
+      "hours": 0,
+      "minutes": 29,
+      "seconds": 34,
+      "date": "05-14-2021",
+      "miles": 3.86
+    },
+    {
+      "hours": 0,
+      "minutes": 29,
+      "seconds": 9,
+      "date": "05-10-2021",
+      "miles": 3.86
+    },
+    {
+      "hours": 0,
+      "minutes": 29,
+      "seconds": 13,
+      "date": "09-12-2022",
+      "miles": 3.85
+    },
+    {
+      "hours": 0,
+      "minutes": 30,
+      "seconds": 17,
+      "date": "02-10-2023",
+      "miles": 3.84
+    },
+    {
+      "hours": 0,
+      "minutes": 27,
+      "seconds": 40,
+      "date": "06-22-2023",
+      "miles": 3.80
+    },
+    {
+      "hours": 0,
+      "minutes": 30,
+      "seconds": 2,
+      "date": "05-13-2023",
+      "miles": 3.77
+    },
+    {
+      "hours": 0,
+      "minutes": 26,
+      "seconds": 43,
+      "date": "05-30-2022",
+      "miles": 3.72
+    },
+    {
+      "hours": 0,
+      "minutes": 27,
+      "seconds": 44,
+      "date": "09-10-2022",
+      "miles": 3.67
+    },
+    {
+      "hours": 0,
+      "minutes": 29,
+      "seconds": 17,
+      "date": "04-09-2021",
+      "miles": 3.61
+    },
+    {
+      "hours": 0,
+      "minutes": 24,
+      "seconds": 49,
+      "date": "08-30-2023",
+      "miles": 3.55
+    },
+    {
+      "hours": 0,
+      "minutes": 27,
+      "seconds": 51,
+      "date": "02-27-2021",
+      "miles": 3.51
+    },
+    {
+      "hours": 0,
+      "minutes": 25,
+      "seconds": 54,
+      "date": "03-17-2023",
+      "miles": 3.50
+    },
+    {
+      "hours": 0,
+      "minutes": 28,
+      "seconds": 19,
+      "date": "08-13-2022",
+      "miles": 3.50
+    },
+    {
+      "hours": 0,
+      "minutes": 29,
+      "seconds": 24,
+      "date": "07-28-2021",
+      "miles": 3.49
+    },
+    {
+      "hours": 0,
+      "minutes": 28,
+      "seconds": 55,
+      "date": "05-02-2021",
+      "miles": 3.45
+    },
+    {
+      "hours": 0,
+      "minutes": 25,
+      "seconds": 17,
+      "date": "08-25-2023",
+      "miles": 3.42
+    },
+    {
+      "hours": 0,
+      "minutes": 23,
+      "seconds": 25,
+      "date": "10-13-2023",
+      "miles": 3.30
+    },
+    {
+      "hours": 0,
+      "minutes": 24,
+      "seconds": 58,
+      "date": "05-02-2023",
+      "miles": 3.30
+    },
+    {
+      "hours": 0,
+      "minutes": 24,
+      "seconds": 16,
+      "date": "05-26-2021",
+      "miles": 3.29
+    },
+    {
+      "hours": 0,
+      "minutes": 25,
+      "seconds": 29,
+      "date": "03-31-2023",
+      "miles": 3.27
+    },
+    {
+      "hours": 0,
+      "minutes": 25,
+      "seconds": 19,
+      "date": "06-14-2023",
+      "miles": 3.26
+    },
+    {
+      "hours": 0,
+      "minutes": 25,
+      "seconds": 14,
+      "date": "11-08-2022",
+      "miles": 3.25
+    },
+    {
+      "hours": 0,
+      "minutes": 24,
+      "seconds": 13,
+      "date": "05-31-2021",
+      "miles": 3.24
+    },
+    {
+      "hours": 0,
+      "minutes": 24,
+      "seconds": 5,
+      "date": "04-22-2023",
+      "miles": 3.21
+    },
+    {
+      "hours": 0,
+      "minutes": 24,
+      "seconds": 44,
+      "date": "12-01-2022",
+      "miles": 3.21
+    },
+    {
+      "hours": 0,
+      "minutes": 24,
+      "seconds": 16,
+      "date": "11-07-2021",
+      "miles": 3.21
+    },
+    {
+      "hours": 0,
+      "minutes": 24,
+      "seconds": 47,
+      "date": "04-23-2023",
+      "miles": 3.20
+    },
+    {
+      "hours": 0,
+      "minutes": 22,
+      "seconds": 55,
+      "date": "10-31-2022",
+      "miles": 3.20
+    },
+    {
+      "hours": 0,
+      "minutes": 23,
+      "seconds": 47,
+      "date": "05-04-2021",
+      "miles": 3.19
+    },
+    {
+      "hours": 0,
+      "minutes": 23,
+      "seconds": 16,
+      "date": "05-08-2021",
+      "miles": 3.17
+    },
+    {
+      "hours": 0,
+      "minutes": 23,
+      "seconds": 53,
+      "date": "03-03-2022",
+      "miles": 3.12
+    },
+    {
+      "hours": 0,
+      "minutes": 24,
+      "seconds": 49,
+      "date": "06-05-2021",
+      "miles": 3.03
+    },
+    {
+      "hours": 0,
+      "minutes": 24,
+      "seconds": 27,
+      "date": "03-02-2022",
+      "miles": 3.02
+    },
+    {
+      "hours": 0,
+      "minutes": 22,
+      "seconds": 12,
+      "date": "07-31-2021",
+      "miles": 3.02
+    },
+    {
+      "hours": 0,
+      "minutes": 21,
+      "seconds": 50,
+      "date": "06-04-2021",
+      "miles": 3.01
+    },
+    {
+      "hours": 0,
+      "minutes": 23,
+      "seconds": 30,
+      "date": "09-20-2023",
+      "miles": 3.00
+    },
+    {
+      "hours": 0,
+      "minutes": 22,
+      "seconds": 32,
+      "date": "04-27-2023",
+      "miles": 3.00
+    },
+    {
+      "hours": 0,
+      "minutes": 23,
+      "seconds": 45,
+      "date": "08-09-2022",
+      "miles": 3.00
+    },
+    {
+      "hours": 0,
+      "minutes": 24,
+      "seconds": 1,
+      "date": "08-03-2022",
+      "miles": 3.00
+    },
+    {
+      "hours": 0,
+      "minutes": 23,
+      "seconds": 6,
+      "date": "07-29-2022",
+      "miles": 3.00
+    },
+    {
+      "hours": 0,
+      "minutes": 23,
+      "seconds": 27,
+      "date": "06-23-2022",
+      "miles": 3.00
+    },
+    {
+      "hours": 0,
+      "minutes": 23,
+      "seconds": 31,
+      "date": "03-27-2021",
+      "miles": 3.00
+    },
+    {
+      "hours": 0,
+      "minutes": 23,
+      "seconds": 19,
+      "date": "10-21-2021",
+      "miles": 2.98
+    },
+    {
+      "hours": 0,
+      "minutes": 22,
+      "seconds": 42,
+      "date": "08-12-2022",
+      "miles": 2.90
+    },
+    {
+      "hours": 0,
+      "minutes": 21,
+      "seconds": 20,
+      "date": "04-21-2023",
+      "miles": 2.88
+    },
+    {
+      "hours": 0,
+      "minutes": 21,
+      "seconds": 18,
+      "date": "05-30-2022",
+      "miles": 2.85
+    },
+    {
+      "hours": 0,
+      "minutes": 10,
+      "seconds": 46,
+      "date": "09-19-2021",
+      "miles": 2.79
+    },
+    {
+      "hours": 0,
+      "minutes": 21,
+      "seconds": 44,
+      "date": "08-25-2022",
+      "miles": 2.78
+    },
+    {
+      "hours": 0,
+      "minutes": 23,
+      "seconds": 21,
+      "date": "04-29-2021",
+      "miles": 2.77
+    },
+    {
+      "hours": 0,
+      "minutes": 21,
+      "seconds": 8,
+      "date": "05-03-2021",
+      "miles": 2.76
+    },
+    {
+      "hours": 0,
+      "minutes": 20,
+      "seconds": 2,
+      "date": "05-16-2021",
+      "miles": 2.74
+    },
+    {
+      "hours": 0,
+      "minutes": 20,
+      "seconds": 16,
+      "date": "08-04-2022",
+      "miles": 2.71
+    },
+    {
+      "hours": 0,
+      "minutes": 21,
+      "seconds": 10,
+      "date": "06-28-2022",
+      "miles": 2.71
+    },
+    {
+      "hours": 0,
+      "minutes": 20,
+      "seconds": 42,
+      "date": "09-15-2021",
+      "miles": 2.65
+    },
+    {
+      "hours": 0,
+      "minutes": 20,
+      "seconds": 54,
+      "date": "03-14-2021",
+      "miles": 2.62
+    },
+    {
+      "hours": 0,
+      "minutes": 18,
+      "seconds": 25,
+      "date": "06-02-2023",
+      "miles": 2.59
+    },
+    {
+      "hours": 0,
+      "minutes": 18,
+      "seconds": 55,
+      "date": "11-08-2022",
+      "miles": 2.58
+    },
+    {
+      "hours": 0,
+      "minutes": 19,
+      "seconds": 36,
+      "date": "08-15-2022",
+      "miles": 2.50
+    },
+    {
+      "hours": 0,
+      "minutes": 18,
+      "seconds": 45,
+      "date": "05-09-2021",
+      "miles": 2.48
+    },
+    {
+      "hours": 0,
+      "minutes": 21,
+      "seconds": 6,
+      "date": "09-19-2021",
+      "miles": 2.46
+    },
+    {
+      "hours": 0,
+      "minutes": 18,
+      "seconds": 45,
+      "date": "05-07-2021",
+      "miles": 2.45
+    },
+    {
+      "hours": 0,
+      "minutes": 20,
+      "seconds": 22,
+      "date": "07-28-2021",
+      "miles": 2.44
+    },
+    {
+      "hours": 0,
+      "minutes": 19,
+      "seconds": 26,
+      "date": "09-16-2021",
+      "miles": 2.42
+    },
+    {
+      "hours": 0,
+      "minutes": 19,
+      "seconds": 29,
+      "date": "02-12-2022",
+      "miles": 2.38
+    },
+    {
+      "hours": 0,
+      "minutes": 18,
+      "seconds": 13,
+      "date": "02-15-2022",
+      "miles": 2.37
+    },
+    {
+      "hours": 1,
+      "minutes": 13,
+      "seconds": 0,
+      "date": "12-29-2022",
+      "miles": 2.33
+    },
+    {
+      "hours": 0,
+      "minutes": 17,
+      "seconds": 8,
+      "date": "06-02-2021",
+      "miles": 2.33
+    },
+    {
+      "hours": 0,
+      "minutes": 17,
+      "seconds": 15,
+      "date": "02-13-2022",
+      "miles": 2.26
+    },
+    {
+      "hours": 0,
+      "minutes": 16,
+      "seconds": 57,
+      "date": "04-04-2021",
+      "miles": 2.26
+    },
+    {
+      "hours": 0,
+      "minutes": 15,
+      "seconds": 40,
+      "date": "09-30-2021",
+      "miles": 2.18
+    },
+    {
+      "hours": 0,
+      "minutes": 16,
+      "seconds": 18,
+      "date": "06-19-2022",
+      "miles": 2.14
+    },
+    {
+      "hours": 0,
+      "minutes": 15,
+      "seconds": 46,
+      "date": "04-18-2021",
+      "miles": 2.10
+    },
+    {
+      "hours": 0,
+      "minutes": 16,
+      "seconds": 47,
+      "date": "09-20-2021",
+      "miles": 2.09
+    },
+    {
+      "hours": 0,
+      "minutes": 15,
+      "seconds": 26,
+      "date": "04-13-2023",
+      "miles": 2.05
+    },
+    {
+      "hours": 0,
+      "minutes": 15,
+      "seconds": 28,
+      "date": "05-03-2023",
+      "miles": 2.02
+    },
+    {
+      "hours": 0,
+      "minutes": 15,
+      "seconds": 42,
+      "date": "08-17-2022",
+      "miles": 2.01
+    },
+    {
+      "hours": 0,
+      "minutes": 14,
+      "seconds": 32,
+      "date": "05-13-2021",
+      "miles": 2.00
+    },
+    {
+      "hours": 1,
+      "minutes": 42,
+      "seconds": 4,
+      "date": "10-14-2023",
+      "miles": 13.39
+    },
+    {
+      "hours": 1,
+      "minutes": 44,
+      "seconds": 22,
+      "date": "05-07-2023",
+      "miles": 13.25
+    },
+    {
+      "hours": 1,
+      "minutes": 40,
+      "seconds": 0,
+      "date": "05-02-2022",
+      "miles": 13.18
+    },
+    {
+      "hours": 1,
+      "minutes": 42,
+      "seconds": 49,
+      "date": "06-11-2023",
+      "miles": 12.43
+    },
+    {
+      "hours": 1,
+      "minutes": 26,
+      "seconds": 18,
+      "date": "08-19-2023",
+      "miles": 11.44
+    },
+    {
+      "hours": 1,
+      "minutes": 27,
+      "seconds": 52,
+      "date": "03-13-2023",
+      "miles": 11.14
+    },
+    {
+      "hours": 1,
+      "minutes": 24,
+      "seconds": 36,
+      "date": "09-10-2023",
+      "miles": 11.00
+    },
+    {
+      "hours": 1,
+      "minutes": 24,
+      "seconds": 55,
+      "date": "04-18-2022",
+      "miles": 11.00
+    },
+    {
+      "hours": 1,
+      "minutes": 21,
+      "seconds": 57,
+      "date": "07-08-2023",
+      "miles": 10.82
+    },
+    {
+      "hours": 1,
+      "minutes": 19,
+      "seconds": 39,
+      "date": "10-09-2023",
+      "miles": 10.48
+    },
+    {
+      "hours": 1,
+      "minutes": 20,
+      "seconds": 9,
+      "date": "04-10-2022",
+      "miles": 10.38
+    },
+    {
+      "hours": 1,
+      "minutes": 18,
+      "seconds": 45,
+      "date": "09-30-2023",
+      "miles": 10.08
+    },
+    {
+      "hours": 1,
+      "minutes": 26,
+      "seconds": 27,
+      "date": "05-18-2023",
+      "miles": 10.00
+    },
+    {
+      "hours": 1,
+      "minutes": 16,
+      "seconds": 7,
+      "date": "03-21-2022",
+      "miles": 10.00
+    },
+    {
+      "hours": 0,
+      "minutes": 15,
+      "seconds": 22,
+      "date": "02-08-2022",
+      "miles": 1.98
+    },
+    {
+      "hours": 0,
+      "minutes": 14,
+      "seconds": 29,
+      "date": "06-03-2021",
+      "miles": 1.86
+    },
+    {
+      "hours": 0,
+      "minutes": 14,
+      "seconds": 14,
+      "date": "03-02-2022",
+      "miles": 1.85
+    },
+    {
+      "hours": 0,
+      "minutes": 13,
+      "seconds": 16,
+      "date": "04-03-2022",
+      "miles": 1.73
+    },
+    {
+      "hours": 0,
+      "minutes": 13,
+      "seconds": 41,
+      "date": "10-03-2023",
+      "miles": 1.71
+    },
+    {
+      "hours": 0,
+      "minutes": 13,
+      "seconds": 55,
+      "date": "02-12-2022",
+      "miles": 1.69
+    },
+    {
+      "hours": 0,
+      "minutes": 17,
+      "seconds": 55,
+      "date": "03-07-2021",
+      "miles": 1.68
+    },
+    {
+      "hours": 0,
+      "minutes": 12,
+      "seconds": 15,
+      "date": "07-02-2021",
+      "miles": 1.65
+    },
+    {
+      "hours": 0,
+      "minutes": 14,
+      "seconds": 40,
+      "date": "01-14-2022",
+      "miles": 1.64
+    },
+    {
+      "hours": 0,
+      "minutes": 13,
+      "seconds": 20,
+      "date": "09-15-2021",
+      "miles": 1.61
+    },
+    {
+      "hours": 0,
+      "minutes": 11,
+      "seconds": 9,
+      "date": "04-02-2021",
+      "miles": 1.51
+    },
+    {
+      "hours": 0,
+      "minutes": 11,
+      "seconds": 22,
+      "date": "09-20-2021",
+      "miles": 1.46
+    },
+    {
+      "hours": 0,
+      "minutes": 9,
+      "seconds": 32,
+      "date": "05-28-2021",
+      "miles": 1.35
+    },
+    {
+      "hours": 0,
+      "minutes": 9,
+      "seconds": 56,
+      "date": "09-19-2021",
+      "miles": 1.14
+    },
+    {
+      "hours": 0,
+      "minutes": 7,
+      "seconds": 51,
+      "date": "02-15-2022",
+      "miles": 1.01
+    },
+    {
+      "hours": 0,
+      "minutes": 8,
+      "seconds": 38,
+      "date": "09-10-2021",
+      "miles": 1.01
+    },
+    {
+      "hours": 0,
+      "minutes": 7,
+      "seconds": 50,
+      "date": "02-15-2022",
+      "miles": 0.94
+    },
+    {
+      "hours": 0,
+      "minutes": 6,
+      "seconds": 48,
+      "date": "07-02-2021",
+      "miles": 0.86
+    },
+    {
+      "hours": 0,
+      "minutes": 5,
+      "seconds": 4,
+      "date": "05-28-2021",
+      "miles": 0.76
+    },
+    {
+      "hours": 0,
+      "minutes": 6,
+      "seconds": 6,
+      "date": "09-20-2021",
+      "miles": 0.74
+    },
+    {
+      "hours": 0,
+      "minutes": 5,
+      "seconds": 36,
+      "date": "10-21-2021",
+      "miles": 0.69
+    },
+    {
+      "hours": 0,
+      "minutes": 3,
+      "seconds": 24,
+      "date": "03-03-2022",
+      "miles": 0.47
+    }
+  ]
+}

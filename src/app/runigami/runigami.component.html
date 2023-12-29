@@ -1,0 +1,25 @@
+<div class="container">
+  <h1>Runigami</h1>
+  <p>One time I was watching something... maybe YouTube maybe PBS, I'm not sure, but it was something about running, and the person was interviewing participants who proposed an interesting game. It requires no speed, technique, age, stride length, or fitness level at all. Take any run. Use the seconds from the final moving time of the run (e.g. total moving time of 25:13, use 13 seconds). Plug in the seconds into a list of all possible remaining second slots (0-59). Try to fill out a board with all 60 seconds over the course of a year.</p>
+  <p>This is mine based on all my tracked runs since 2021. Green means I completed that seconds time slot, black means I missed it.</p>
+  <p>I didn't actively pursue this in anyway and had never seen my results prior to late December 2023.</p>
+  <div>
+    <div>
+      <h2>The Board</h2>
+      <div id="filters">
+        <mat-chip-listbox id="brand-filter">
+          <div class="filter-title">Select a Year</div>
+          <mat-chip [attr.selected]="selectedYear === 2021" (click)="selectYear(2021)">2021</mat-chip>
+          <mat-chip [attr.selected]="selectedYear === 2022" (click)="selectYear(2022)">2022</mat-chip>
+          <mat-chip [attr.selected]="selectedYear === 2023" (click)="selectYear(2023)">2023</mat-chip>
+        </mat-chip-listbox>
+      </div>
+    </div>
+    <mat-spinner *ngIf="isLoading"></mat-spinner>
+    <div class="time-container" *ngIf="!isLoading">
+      <ng-container *ngFor="let key of numbers">
+        <div [class.done]="checkRun(key)" class="time-slot">{{key | number:'2.0-0'}}</div>
+      </ng-container>
+    </div>
+  </div>
+</div>
