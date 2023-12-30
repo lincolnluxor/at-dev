@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import './scss/mixins';
+
 *, *:after, *:before {
   box-sizing: border-box;
 }
@@ -20,4 +23,3 @@ a {
   margin: 30px auto;
   padding: 30px;
 }
-

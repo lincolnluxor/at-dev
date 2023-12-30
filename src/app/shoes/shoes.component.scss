@@ -1,3 +1,4 @@
+@import '../../scss/mixins';
 :host {
   --mdc-elevated-card-container-color: rgba(230,230,230,1);
   --mat-card-subtitle-text-color: rgba(50,50,50,1);
@@ -14,7 +15,21 @@
   }
   mat-card,
   app-shoe {
-    width: 30%;
+    width: 90%;
+    @include screen-md-and-up {
+      width: 45%;
+
+    }
+    @include screen-lg-and-up {
+      width: 30%;
+
+    }
+  }
+  mat-chip {
+    margin: 2px;
+    @include screen-md-and-up {
+      margin: 5px;
+    }
   }
   #brand-filter,
   #shoe-sort {
@@ -47,24 +62,5 @@
   mat-spinner {
     margin: 0 auto;
     margin-top: 20px;
-  }
-  $screen-sm: 640px;
-  $screen-md: 768px;
-  $screen-lg: 1024px;
-  $screen-xl: 1280px;
-  @media screen and (max-width: $screen-md) {
-    app-shoe {
-      width: 45%;
-    }
-  }
-  @media screen and (max-width: $screen-sm) {
-    app-shoe {
-      width: 90%;
-    }
-    mat-chip {
-
-      margin: 2px;
-
-    }
   }
 }

@@ -1,3 +1,5 @@
+@import '../../../scss/mixins';
+
 :host {
   mat-card-header {
     flex-direction: column;
@@ -56,20 +58,14 @@
     background-position: center;
   }
   .work-stuff {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     display: grid;
     grid-gap: 1rem;
     gap: 15px;
     justify-content: space-between;
     flex-direction: column;
-  }
-  $screen-sm: 640px;
-  $screen-md: 768px;
-  $screen-lg: 1024px;
-  $screen-xl: 1280px;
-  @media screen and (max-width: $screen-md) {
-    .work-stuff {
-      grid-template-columns: repeat(1, 1fr);
+    @include screen-md-and-up {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 }

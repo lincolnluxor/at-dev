@@ -1,3 +1,5 @@
+@import '../../scss/mixins';
+
 :host {
   --mdc-elevated-card-container-color: rgba(230,230,230,1);
   --mat-card-subtitle-text-color: rgba(50,50,50,1);
@@ -86,11 +88,17 @@
   }
   .state-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 1rem;
     gap: 15px;
     justify-content: space-between;
     flex-direction: column;
+    @include screen-md-and-up {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include screen-lg-and-up {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
   mat-card {
     box-shadow: 5px 5px 5px #888888;
@@ -118,21 +126,5 @@
   }
   .mat-mdc-card-content {
     padding-top: 15px;
-  }
-  $screen-sm: 640px;
-  $screen-md: 768px;
-  $screen-lg: 1024px;
-  $screen-xl: 1280px;
-  @media screen and (max-width: $screen-lg) {
-    .state-list {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  @media screen and (max-width: $screen-md) {
-    .state-list {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-    }
   }
 }
