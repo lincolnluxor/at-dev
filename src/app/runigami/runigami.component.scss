@@ -1,13 +1,10 @@
 :host {
   .time-slot {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 6px;
-    padding: 10px;
     color: white;
-    margin: 4px;
     text-align: center;
-    width: 50px;
     &:not(.done) {
       background: black;
     }
@@ -17,7 +14,7 @@
     &:before {
       content: ':';
       color: white;
-      font-size: 18px;
+      font-size: 16px;
     }
   }
   .time-container {
@@ -54,16 +51,19 @@
   @media screen and (max-width: $screen-lg) {
     .time-container {
       grid-template-columns: repeat(6, 1fr);
+      gap: 12px;
     }
   }
   @media screen and (max-width: $screen-md) {
     .time-container {
       grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
     }
   }
   @media screen and (max-width: $screen-sm) {
     .time-container {
       grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
     }
   }
 }
