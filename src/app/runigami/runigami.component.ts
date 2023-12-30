@@ -20,7 +20,6 @@ export class RunigamiComponent {
   isLoading: boolean = true;
   numbers: number[];
   runsEndingIn: number[] = [];
-  uniqueSeconds: number[] = [];
   selectedYear: number = 2023;
   constructor(
     private route: Router,
@@ -46,9 +45,6 @@ export class RunigamiComponent {
 
   updateRuns() {
     this.runs.runs.forEach(run => {
-      if (this.uniqueSeconds.indexOf(run.seconds) === -1) {
-        this.uniqueSeconds.push(run.seconds);
-      }
       const runYear = new Date(run.date).getFullYear();
       if (runYear === this.selectedYear) {
         this.runsEndingIn.push(run.seconds);
@@ -62,7 +58,6 @@ export class RunigamiComponent {
 
   selectYear(year: number) {
     this.selectedYear = year;
-    this.uniqueSeconds.length = 0;
     this.runsEndingIn.length = 0;
     this.updateRuns();
   }
