@@ -28,6 +28,7 @@
   --flannel-40-color: color-mix(in srgb, var(--flannel-color), transparent 40%);
   --flannel-50-color: color-mix(in srgb, var(--flannel-color), transparent 50%);
   --flannel-60-color: color-mix(in srgb, var(--flannel-color), transparent 60%);
+
   .flannel {
     background:
       linear-gradient(-135deg, var(--flannel-color) 10%, transparent),
