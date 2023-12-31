@@ -1,4 +1,7 @@
 :host {
+  mat-toolbar {
+    position: relative;
+  }
   .navbar-nav {
     display: flex;
   }
@@ -11,8 +14,17 @@
   .nav-brand,
   .nav-link {
     cursor: pointer;
+    z-index: 2;
   }
   .nav-link {
     font-size: 14px;
+  }
+  svg {
+    position: absolute;
+    left: 15px;
+    top: -15px;
+    width: 95px;
+    fill: #f00;
+    z-index: 1;
   }
 }

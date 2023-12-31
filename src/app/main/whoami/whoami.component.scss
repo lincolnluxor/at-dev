@@ -38,10 +38,57 @@
     padding: 0 15px 0 33px;
     margin-left: 25px;
   }
-  .content {
+  .flex {
     display: flex;
     flex-direction: row;
-    & div {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .highlight {
+
+    padding: 5px 10px;
+    font-weight: 800;
+    line-height: 250%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+    z-index: 1;
+    &:after {
+      position: absolute;
+      box-shadow: 1px 1px 4px var(--gray-700);
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      content: '';
+      z-index: -1;
+    }
+    &.yellow {
+      &:after {
+        background: yellow;
+        transform: rotate(2deg);
+      }
+    }
+    &.red {
+      color: white;
+      &:after {
+        background: red;
+        transform: rotate(-2deg);
+      }
+    }
+    &.blue {
+      color: white;
+      &:after {
+        background: blue;
+        transform: rotate(-1deg);
+      }
+    }
+    &.green {
+      color: white;
+      &:after {
+        background: green;
+        transform: rotate(1deg);
+      }
     }
   }
 }
