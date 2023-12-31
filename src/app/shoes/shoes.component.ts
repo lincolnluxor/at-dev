@@ -8,11 +8,12 @@ import { CommonModule } from '@angular/common';
 import { ShoesBrand } from '../interfaceGlossary.model';
 import { NoShoeComponent } from './no-shoe/no-shoe.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { NavigationComponent } from '../navigation/navigation.component';
 
 @Component({
   selector: 'app-shoes',
   standalone: true,
-  imports: [MatCardModule, MatProgressSpinnerModule, MatChipsModule, ShoeComponent, NoShoeComponent, CommonModule],
+  imports: [NavigationComponent, MatCardModule, MatProgressSpinnerModule, MatChipsModule, ShoeComponent, NoShoeComponent, CommonModule],
   templateUrl: './shoes.component.html',
   styleUrl: './shoes.component.scss'
 })

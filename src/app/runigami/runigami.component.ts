@@ -5,11 +5,12 @@ import { CommonModule } from '@angular/common';
 import { MatChipsModule } from '@angular/material/chips';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { NavigationComponent } from '../navigation/navigation.component';
 
 @Component({
   selector: 'app-runigami',
   standalone: true,
-  imports: [CommonModule, MatChipsModule, MatProgressSpinnerModule],
+  imports: [CommonModule, MatChipsModule, MatProgressSpinnerModule, NavigationComponent],
   templateUrl: './runigami.component.html',
   styleUrl: './runigami.component.scss'
 })

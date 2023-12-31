@@ -1,13 +1,6 @@
 @import '../../../scss/mixins';
 
 :host {
-  * {
-    font-family: 'Open Sans', sans-serif;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-weight: 800;
-  }
   --gray-900: oklch(19.37% 0.006 300.98);
   --gray-700: oklch(36.98% 0.014 302.71);
   --gray-400: oklch(70.9% 0.015 304.04);

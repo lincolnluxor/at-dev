@@ -3,11 +3,12 @@ import { MatCardModule } from '@angular/material/card';
 import { SettingsService } from '../settings.service';
 import { StateDef, StatesDef } from '../interfaceGlossary.model';
 import { CommonModule } from '@angular/common';
+import { NavigationComponent } from '../navigation/navigation.component';
 
 @Component({
   selector: 'app-map',
   standalone: true,
-  imports: [MatCardModule, CommonModule],
+  imports: [MatCardModule, CommonModule, NavigationComponent],
   templateUrl: './map.component.html',
   styleUrl: './map.component.scss'
 })
