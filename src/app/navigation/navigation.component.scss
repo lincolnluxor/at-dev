@@ -1,6 +1,13 @@
 :host {
+  --gray-700: oklch(36.98% 0.014 302.71);
   mat-toolbar {
     position: relative;
+    background-color: white;
+    color: var(--gray-700);
+    z-index: 100;
+  }
+  .shift {
+    color: white;
   }
   .navbar-nav {
     display: flex;

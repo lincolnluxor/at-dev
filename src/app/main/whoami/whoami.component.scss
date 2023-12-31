@@ -1,3 +1,4 @@
+@import '../../../scss/mixins';
 :host {
   --gray-700: oklch(36.98% 0.014 302.71);
   .gradient-text {
@@ -26,6 +27,10 @@
     font-size: 48px;
     line-height: 100%;
   }
+  .center {
+    text-align: center;
+    padding: 0 10px;
+  }
   .styled {
     font-family: 'Indie Flower', cursive;
     font-size: 24px;
@@ -40,19 +45,30 @@
   }
   .flex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    z-index: 1;
     align-items: center;
     justify-content: space-between;
+
+    @include screen-lg-and-up {
+      flex-direction: row;
+    }
+  }
+  .hidden-sm {
+    display: none;
+    @include screen-md-and-up {
+      display: inline;
+    }
+
   }
   .highlight {
-
     padding: 5px 10px;
     font-weight: 800;
     line-height: 250%;
     text-transform: uppercase;
     letter-spacing: 5px;
     position: relative;
-    z-index: 1;
+    color: black;
     &:after {
       position: absolute;
       box-shadow: 1px 1px 4px var(--gray-700);

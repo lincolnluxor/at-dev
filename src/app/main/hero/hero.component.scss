@@ -14,7 +14,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: -5;
     position: absolute;
     background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
     background-size: 1800% 1800%;
@@ -86,7 +86,7 @@
     margin: 10px;
     font-size: 48px;
     box-shadow: 3px 1px 8px var(--gray-700), inset 3px 1px 8px var(--gray-700);
-    background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,0);
     position: absolute;
     transform-origin: 50% 50%;
     animation: back-in-left-animation 1s ease 0s 1 normal both running, opacity-on 4s ease-in-out infinite;
@@ -99,6 +99,7 @@
     }
   }
   .main {
+    overflow: hidden;
     background: url('../../../assets/me-beach2.png') no-repeat;
     background-position: center 37vh;
     @include screen-lg-and-up {
@@ -122,6 +123,9 @@
   .hero-text {
     width: 500px;
   }
+  .raise-z {
+    z-index: 3;
+  }
   .top {
     font-size: 32px;
     font-weight: 800;
@@ -135,13 +139,41 @@
     text-align: right;
     margin-left: 150px;
   }
+  .availability,
   .location {
-    font-family: 'Indie Flower', cursive;
     position: absolute;
-    bottom: 30px;
-    left: 30px;
-    font-size: 24px;
+    bottom: 20px;
+    font-size: 16px;
     text-shadow: 3px 1px 8px var(--gray-700);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    &-bg {
+      content: '';
+      bottom: -70px;
+      border-radius: 50%;
+      background: rgba(0,0,0,0);
+      position: absolute;
+      border: 5px solid white;
+      box-shadow: 3px 1px 8px var(--gray-700), inset 3px 1px 8px var(--gray-700);
+    }
+  }
+  .location {
+    left: 20px;
+    &-bg {
+      left: -10px;
+      width: 200px;
+      height: 200px;
+      animation: opacity-on 4s ease-in-out 1s infinite;
+    }
+  }
+  .availability {
+    text-align: right;
+    right: 20px;
+    &-bg {
+      right: -10px;
+      width: 180px;
+      height: 180px;
+      animation: opacity-on 4s ease-in-out 2s infinite;
+    }
   }
 }
 @keyframes rainbow {
