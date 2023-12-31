@@ -1,17 +1,18 @@
+@import '../../../scss/mixins';
 
 :host {
+  * {
+    font-family: 'Open Sans', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 800;
+  }
   --gray-900: oklch(19.37% 0.006 300.98);
   --gray-700: oklch(36.98% 0.014 302.71);
   --gray-400: oklch(70.9% 0.015 304.04);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-weight: 800;
-  }
-  *:not(h1, h2, h3, h4, h5, h6) {
-    font-family: 'Open Sans', sans-serif;
-  }
   .rainbow {
     height: 100%;
     width: 100%;
@@ -29,21 +30,35 @@
     position: relative;
     height: 144px;
     margin-left: 25px;
+    @include screen-lg-and-up {
+      width: 38vw;
+    }
   }
   h1 {
     border: 15px solid white;
-    padding: 25px 30px;
+    padding: 20px;
     margin: 10px;
+    font-size: 48px;
     box-shadow: 3px 1px 8px var(--gray-700), inset 3px 1px 8px var(--gray-700);
     background: rgba(0,0,0,.5);
-    font-size: 72px;
     position: absolute;
     transform-origin: 50% 50%;
     animation: back-in-left-animation 1s ease 0s 1 normal both running, opacity-on 4s ease-in-out infinite;
+    line-height: 100%;
+    white-space: nowrap;
+    @include screen-lg-and-up {
+      padding: 3vh 3vw;
+      margin: 1vh 1vw;
+      font-size: 5.9vw;
+    }
   }
   .main {
-    background: url('../../../assets/me-beach2.png') no-repeat right bottom;
-    background-size: 991px 744px;
+    background: url('../../../assets/me-beach2.png') no-repeat;
+    background-position: center 37vh;
+    @include screen-lg-and-up {
+      background-size: 991px 744px;
+      background-position: right bottom;
+    }
     color: white;
     text-shadow: 3px 1px 8px var(--gray-700);
     position: relative;
@@ -51,15 +66,24 @@
     min-height: 100%;
     display: flex;
     padding-left: 10%;
-    align-items: center;
     box-sizing: inherit;
+
+    padding-top: 20vh;
+    @include screen-lg-and-up {
+      padding-top: 0;
+      align-items: center;
+    }
   }
   .hero-text {
     width: 500px;
   }
   .top {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 800;
+    line-height: 100%;
+    @include screen-lg-and-up {
+      font-size: 3.9vw;
+    }
   }
   .right {
     width: 350px;
@@ -67,9 +91,12 @@
     margin-left: 150px;
   }
   .location {
+    font-family: 'Indie Flower', cursive;
     position: absolute;
-    bottom: 80px;
-    left: 50px;
+    bottom: 30px;
+    left: 30px;
+    font-size: 24px;
+    text-shadow: 3px 1px 8px var(--gray-700);
   }
 }
 @keyframes rainbow {
