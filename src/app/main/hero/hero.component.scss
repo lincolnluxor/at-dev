@@ -4,6 +4,7 @@
   --gray-900: oklch(19.37% 0.006 300.98);
   --gray-700: oklch(36.98% 0.014 302.71);
   --gray-400: oklch(70.9% 0.015 304.04);
+  --gray-400: oklch(70.9% 0.015 304.04);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   .rainbow {
@@ -17,7 +18,33 @@
     position: absolute;
     background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
     background-size: 1800% 1800%;
-    animation: rainbow 8s ease infinite;
+    animation: rainbow 12s ease infinite;
+  }
+  .fly-over {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    display: flex;
+  }
+  .fly-over-item {
+    display: flex;
+    background: rgba(0,0,0,0);
+    border-radius: 25px;
+    align-items: center;
+    padding: 5px 20px;
+    animation: opacity-on 3s ease-in-out 1s infinite;
+    border: 5px solid white;
+    box-shadow: 3px 1px 8px var(--gray-700), inset 3px 1px 8px var(--gray-700);
+  }
+  .fly-over-text {
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+  }
+  .fly-over-icon {
+    height: 30px;
+    filter: drop-shadow(3px 2px 3px rgb(0 0 0 / 0.4));
+    margin-right: 15px;
   }
   .fly-in {
     position: relative;
@@ -26,6 +53,32 @@
     @include screen-lg-and-up {
       width: 38vw;
     }
+  }
+  .star-thing {
+    width: 70px;
+    height: 70px;
+    fill: transparent;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    filter: drop-shadow(3px 2px 3px rgb(0 0 0 / 0.4));
+    stroke-dasharray: 100;
+    animation: dash 15s linear 300ms infinite, rotation 5s linear infinite;
+    &:nth-child(2){
+      top: 15%;
+      right: 45%;
+      animation: dash 15s linear 900ms infinite reverse, rotation 13s linear infinite;
+      width: 130px;
+      height: 130px;
+    }
+    &:nth-child(3){
+      top: 19%;
+      right: 35%;
+      animation: dash 15s linear 900ms infinite, rotation 13s linear infinite reverse;
+      width: 80px;
+      height: 80px;
+    }
+
   }
   h1 {
     border: 15px solid white;
@@ -116,5 +169,20 @@
   100% {
       transform: translate(0px, 0px) scale(1);
       opacity: 1;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(359deg);
   }
 }
