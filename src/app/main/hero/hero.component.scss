@@ -7,6 +7,7 @@
   -moz-osx-font-smoothing: grayscale;
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 800;
   }
   *:not(h1, h2, h3, h4, h5, h6) {
     font-family: 'Open Sans', sans-serif;
@@ -24,40 +25,51 @@
     background-size: 1800% 1800%;
     animation: rainbow 8s ease infinite;
   }
-  .box {
+  .fly-in {
+    position: relative;
+    height: 144px;
+    margin-left: 25px;
+  }
+  h1 {
     border: 15px solid white;
-    padding: 10px 20px;
+    padding: 25px 30px;
     margin: 10px;
     box-shadow: 3px 1px 8px var(--gray-700), inset 3px 1px 8px var(--gray-700);
     background: rgba(0,0,0,.5);
-    animation: opacity-on 4s ease-in-out infinite;
-  }
-  #name {
     font-size: 72px;
-    line-height: 144px;
+    position: absolute;
+    transform-origin: 50% 50%;
+    animation: back-in-left-animation 1s ease 0s 1 normal both running, opacity-on 4s ease-in-out infinite;
   }
   .main {
     background: url('../../../assets/me-beach2.png') no-repeat right bottom;
-    background-size: contain;
-    background-size: 60%;
+    background-size: 991px 744px;
     color: white;
     text-shadow: 3px 1px 8px var(--gray-700);
     position: relative;
     width: 100%;
     min-height: 100%;
     display: flex;
-    justify-content: center;
+    padding-left: 10%;
     align-items: center;
     box-sizing: inherit;
   }
-  h1 {
-    font-size: 3.125rem;
-    line-height: 100%;
+  .hero-text {
+    width: 500px;
   }
-  .hero-text p{
-    width: 300px;
+  .top {
+    font-size: 36px;
+    font-weight: 800;
+  }
+  .right {
+    width: 350px;
     text-align: right;
     margin-left: 150px;
+  }
+  .location {
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
   }
 }
 @keyframes rainbow {
@@ -69,4 +81,20 @@
   0%{background: rgba(0,0,0,0);}
   50%{background: rgba(0,0,0,.5);}
   100%{background: rgba(0,0,0,0);}
+}
+@keyframes back-in-left-animation {
+  0% {
+      transform: translate(2000px, 0px) scale(0.7);
+      opacity: 0.7;
+  }
+
+  80% {
+      transform: translate(0px, 0px) scale(0.7);
+      opacity: 0.7;
+  }
+
+  100% {
+      transform: translate(0px, 0px) scale(1);
+      opacity: 1;
+  }
 }
