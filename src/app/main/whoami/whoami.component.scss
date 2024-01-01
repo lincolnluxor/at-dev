@@ -1,32 +1,5 @@
 @import '../../../scss/mixins';
 :host {
-  --gray-700: oklch(36.98% 0.014 302.71);
-  .gradient-text {
-    background-color: #f3ec78;
-    background-image: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    animation: rainbow 12s ease 2s infinite;
-    background-size: 1800% 1800%;
-    position: relative;
-    &:after {
-      position: absolute;
-      content: '';
-      bottom: 0px;
-      left: 0;
-      right: 0;
-      height: 6px;
-      background-image: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-      animation: rainbow 12s ease 2s infinite;
-      background-size: 1800% 1800%;
-    }
-  }
-  h2 {
-    font-size: 48px;
-    line-height: 100%;
-  }
   .center {
     text-align: center;
     padding: 0 10px;
@@ -54,62 +27,4 @@
       flex-direction: row;
     }
   }
-  .hidden-sm {
-    display: none;
-    @include screen-md-and-up {
-      display: inline;
-    }
-
-  }
-  .highlight {
-    padding: 5px 10px;
-    font-weight: 800;
-    line-height: 250%;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    position: relative;
-    color: black;
-    &:after {
-      position: absolute;
-      box-shadow: 1px 1px 4px var(--gray-700);
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      content: '';
-      z-index: -1;
-    }
-    &.yellow {
-      &:after {
-        background: yellow;
-        transform: rotate(2deg);
-      }
-    }
-    &.red {
-      color: white;
-      &:after {
-        background: red;
-        transform: rotate(-2deg);
-      }
-    }
-    &.blue {
-      color: white;
-      &:after {
-        background: blue;
-        transform: rotate(-1deg);
-      }
-    }
-    &.green {
-      color: white;
-      &:after {
-        background: green;
-        transform: rotate(1deg);
-      }
-    }
-  }
-}
-@keyframes rainbow {
-  0%{background-position:0% 82%}
-  50%{background-position:100% 19%}
-  100%{background-position:0% 82%}
 }
