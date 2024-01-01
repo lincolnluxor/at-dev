@@ -50,6 +50,18 @@
       filter: drop-shadow(3px 2px 3px rgb(0 0 0 / 0.4));
     }
   }
+  button {
+    padding: 5px 10px;
+    border: 3px solid white;
+    background-color: white;
+    border-top-color: blue;
+    border-right-color: yellow;
+    border-bottom-color: green;
+    border-left-color: red;
+    font-size: 48px;
+    line-height: 100%;
+    box-shadow: 3px 1px 8px var(--gray-700), inset 3px 1px 8px var(--gray-700);
+  }
   @keyframes bounce {
     from {
       transform: translate3d(0,0,0);
