@@ -8,6 +8,7 @@
   }
   .shift {
     color: white;
+    text-shadow: 0px 0px 4px rgba(0,0,0,.5);
   }
   .navbar-nav {
     display: flex;
@@ -31,7 +32,17 @@
     left: 15px;
     top: -15px;
     width: 95px;
-    fill: #f00;
     z-index: 1;
+    fill: linear-gradient(124deg, rgba(255, 36, 0, var(--opacity)),
+    rgba(232, 29, 29, var(--opacity)),
+    rgba(232, 183, 29, var(--opacity)),
+    rgba(227, 232, 29, var(--opacity)),
+    rgba(29, 232, 64, var(--opacity)),
+    rgba(29, 221, 232, var(--opacity)),
+    rgba(43, 29, 232, var(--opacity)),
+    rgba(221, 0, 243, var(--opacity)),
+    rgba(221, 0, 243, var(--opacity)));
+   background-size: 1800% 1800%;
+   animation: rainbow 12s ease infinite;
   }
 }

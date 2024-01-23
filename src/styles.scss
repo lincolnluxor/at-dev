@@ -79,28 +79,28 @@ h2 {
   &.yellow {
     &:after {
       background: yellow;
-      transform: rotate(2deg);
+      // transform: rotate(2deg);
     }
   }
   &.red {
     color: white;
     &:after {
       background: red;
-      transform: rotate(-2deg);
+      // transform: rotate(-2deg);
     }
   }
   &.blue {
     color: white;
     &:after {
       background: blue;
-      transform: rotate(-1deg);
+      // transform: rotate(-1deg);
     }
   }
   &.green {
     color: white;
     &:after {
       background: green;
-      transform: rotate(1deg);
+      // transform: rotate(1deg);
     }
   }
 }
@@ -114,4 +114,12 @@ h2 {
   0%{background-position:0% 82%}
   50%{background-position:100% 19%}
   100%{background-position:0% 82%}
+}
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(359deg);
+  }
 }

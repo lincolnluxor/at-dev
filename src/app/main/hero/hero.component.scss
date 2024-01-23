@@ -1,23 +1,29 @@
 @import '../../../scss/mixins';
 
 :host {
-  --gray-900: oklch(19.37% 0.006 300.98);
   --gray-700: oklch(36.98% 0.014 302.71);
-  --gray-400: oklch(70.9% 0.015 304.04);
-  --gray-400: oklch(70.9% 0.015 304.04);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  .rainbow ,
+  .star-thing,
+  .asterick,
+  h1,
+  .main:after,
+  .availability,
+  .location,
+  .availability-bg,
+  .location-bg {
+    position: absolute;
+  }
   .rainbow {
     height: 100%;
     width: 100%;
-    left:0;
+    left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     z-index: -5;
-    position: absolute;
     --opacity: .5;
-
     background: linear-gradient(124deg, rgba(255, 36, 0, var(--opacity)),
      rgba(232, 29, 29, var(--opacity)),
      rgba(232, 183, 29, var(--opacity)),
@@ -30,32 +36,6 @@
     background-size: 1800% 1800%;
     animation: rainbow 12s ease infinite;
   }
-  .fly-over {
-    position: absolute;
-    top: 50px;
-    left: 0;
-    right: 0;
-    display: flex;
-  }
-  .fly-over-item {
-    display: flex;
-    background: rgba(0,0,0,0);
-    border-radius: 25px;
-    align-items: center;
-    padding: 5px 20px;
-    animation: opacity-on 3s ease-in-out 1s infinite;
-    border: 5px solid white;
-    box-shadow: 3px 1px 8px var(--gray-700), inset 3px 1px 8px var(--gray-700);
-  }
-  .fly-over-text {
-    font-family: 'Indie Flower', cursive;
-    font-size: 32px;
-  }
-  .fly-over-icon {
-    height: 30px;
-    filter: drop-shadow(3px 2px 3px rgb(0 0 0 / 0.4));
-    margin-right: 15px;
-  }
   .fly-in {
     position: relative;
     height: 144px;
@@ -64,41 +44,6 @@
       width: 38vw;
     }
   }
-  .star-thing {
-    width: 70px;
-    height: 70px;
-    fill: transparent;
-    position: absolute;
-    top: 15%;
-    right: 7%;
-    filter: drop-shadow(3px 2px 3px rgb(0 0 0 / 0.4));
-    stroke-dasharray: 100;
-    animation: dash 15s linear 900ms infinite, movement2 14s linear 200ms infinite;
-    &:nth-child(2){
-      top: 5%;
-      right: 27%;
-      animation: dash 15s linear infinite reverse, movement 5s linear infinite;
-      width: 130px;
-      height: 130px;
-    }
-    &:nth-child(3){
-      top: 9%;
-      right: 20%;
-      width: 80px;
-      height: 80px;
-      animation: rotation 5s linear infinite;
-    }
-  }
-  .asterick {
-    width: 50px;
-    height: 50px;
-    animation: rotation 5s linear infinite;
-    fill: white;
-    filter: drop-shadow(3px 2px 3px rgb(0 0 0 / 0.4));
-    position: absolute;
-    top: 2%;
-    left: 52%;
-  }
   h1 {
     border: 15px solid white;
     padding: 20px;
@@ -106,7 +51,6 @@
     font-size: 48px;
     box-shadow: 3px 1px 8px var(--gray-700), inset 3px 1px 8px var(--gray-700);
     background: rgba(0,0,0,0);
-    position: absolute;
     transform-origin: 50% 50%;
     animation: back-in-left-animation 1s ease 0s 1 normal both running, opacity-on 4s ease-in-out infinite;
     line-height: 100%;
@@ -118,22 +62,19 @@
     }
   }
   .main {
-    overflow: hidden;
-    background: url('../../../assets/me-beach2.png') no-repeat;
-    background-position: center 37vh;
-    @include screen-lg-and-up {
-      background-size: 991px 744px;
-      background-position: right bottom;
-    }
-    color: white;
-    text-shadow: 3px 1px 8px var(--gray-700);
     position: relative;
+    display: flex;
+    overflow: hidden;
     width: 100%;
     min-height: 100%;
-    display: flex;
-    padding-left: 10%;
-    box-sizing: inherit;
-    padding-top: 20vh;
+
+    color: white;
+    text-shadow: 3px 1px 8px var(--gray-700);
+    padding: 20vh 0 0 10%;
+    @include screen-md-and-up {
+      background: url('../../../assets/me-beach2.png') no-repeat;
+      background-position: center 37vh;
+    }
     @include screen-lg-and-up {
       padding-top: 0;
       align-items: center;
@@ -145,17 +86,17 @@
       top: 0;
       left: 0;
       background-size: cover;
-      position: absolute;
       width: 100%;
       height: 100%;
       z-index: -10;
     }
+    @include screen-lg-and-up {
+      background-size: 991px 744px;
+      background-position: right bottom;
+    }
   }
   .hero-text {
     width: 500px;
-  }
-  .raise-z {
-    z-index: 3;
   }
   .top {
     font-size: 32px;
@@ -166,14 +107,17 @@
       font-size: 3.9vw;
     }
   }
-  .right {
-    width: 350px;
-    text-align: right;
-    margin-left: 150px;
+  .availability,
+  .location,
+  .availability-bg,
+  .location-bg {
+    display: none;
+    @include screen-md-and-up {
+      display: block;
+    }
   }
   .availability,
   .location {
-    position: absolute;
     bottom: 20px;
     font-size: 16px;
     text-shadow: 3px 1px 8px var(--gray-700);
@@ -183,7 +127,6 @@
       bottom: -70px;
       border-radius: 50%;
       background: rgba(0,0,0,0);
-      position: absolute;
       border: 5px solid white;
       box-shadow: 3px 1px 8px var(--gray-700), inset 3px 1px 8px var(--gray-700);
     }
@@ -208,79 +151,19 @@
     }
   }
 }
-@keyframes rainbow {
-  0%{background-position:0% 82%}
-  50%{background-position:100% 19%}
-  100%{background-position:0% 82%}
-}
 @keyframes opacity-on {
   0%{background: rgba(0,0,0,0);}
   50%{background: rgba(0,0,0,.5);}
   100%{background: rgba(0,0,0,0);}
 }
 @keyframes back-in-left-animation {
-  0% {
-      transform: translate(2000px, 0px) scale(0.7);
-      opacity: 0.7;
-  }
-
-  80% {
-      transform: translate(0px, 0px) scale(0.7);
-      opacity: 0.7;
-  }
-
-  100% {
-      transform: translate(0px, 0px) scale(1);
-      opacity: 1;
-  }
+  0% {transform: translate(2000px, 0px) scale(0.7);
+      opacity: 0.7;}
+  80% {transform: translate(0px, 0px) scale(0.7);
+      opacity: 0.7;}
+  100% {transform: translate(0px, 0px) scale(1);
+      opacity: 1;}
 }
-
 @keyframes dash {
-  to {
-    stroke-dashoffset: 1000;
-  }
-}
-
-@keyframes rotation {
-  from {
-      transform: rotate(0deg);
-  }
-  to {
-      transform: rotate(359deg);
-  }
-}
-
-@keyframes movement {
-  0% {
-    transform: translate3d(0,0,0) rotate(0deg);
-  }
-  25% {
-    transform: translate3d(0,150px,0) rotate(-90deg);
-  }
-  50% {
-    transform: translate3d(-150px,150px,0) rotate(-180deg);
-  }
-  75% {
-    transform: translate3d(-150px,0,0) rotate(-270deg);
-  }
-  100% {
-    transform: translate3d(0,0,0) rotate(-360deg);
-  }
-}
-@keyframes movement2 {
-  0% {
-    transform: translate3d(0,0,0);
-  }
-  25% {
-    transform: translate3d(-100px,60px,0);
-  }
-  50% {
-    transform: translate3d(-150px,-10px,0);
-  }
-  75% {
-    transform: translate3d(20px,40px,0);
-  }
-  100% {
-    transform: translate3d(0,0,0);
-  }
+  to {stroke-dashoffset: 1000;}
 }
