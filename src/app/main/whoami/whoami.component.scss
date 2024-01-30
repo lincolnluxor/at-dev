@@ -1,8 +1,29 @@
 @import '../../../scss/mixins';
 :host {
+  .extra-large {
+    font-size: 6rem;
+    line-height: 3.2rem;
+  }
+  .work-example {
+    width: 90%;
+    border-radius: 1rem;
+    z-index: 3;
+    margin-bottom: 6rem;
+  }
   .center {
     text-align: center;
     padding: 0 10px;
+  }
+  .top {
+    position: absolute;
+    top: -1rem;
+    left: 8%;
+    right: 8%;
+    height: 1rem;
+    background-color: #265d87;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    z-index: -1;
   }
   .styled {
     font-family: 'Indie Flower', cursive;
@@ -10,7 +31,6 @@
     background: white;
     border: 2px solid black;
     border-radius: 5px;
-    box-shadow: 3px 1px 8px var(--gray-700);
     position: relative;
     text-indent: -18px;
     padding: 0 15px 0 33px;
@@ -22,9 +42,5 @@
     z-index: 1;
     align-items: center;
     justify-content: space-between;
-
-    @include screen-lg-and-up {
-      flex-direction: row;
-    }
   }
 }
